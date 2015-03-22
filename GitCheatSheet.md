@@ -17,6 +17,9 @@ Dateien aus master-Branch zum Server pushen
 **git push origin master**
 **git push https://github.com/lubobde/SpreadScrum.git master**
 
+How to avoide entering username and password all the time:
+http://stackoverflow.com/questions/8588768/git-push-username-password-how-to-avoid
+
 Alle lokalen Branches zum Server pushen:
 **git push --all -u**
 
