@@ -15,6 +15,7 @@ Commit machen, geht nur mit Kommentar
 Dateien aus master-Branch zum Server pushen
 
 **git push origin master**
+**git push https://github.com/lubobde/SpreadScrum.git master**
 
 Alle lokalen Branches zum Server pushen:
 **git push --all -u**
