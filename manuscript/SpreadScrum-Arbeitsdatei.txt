@@ -1,0 +1,1211 @@
+## Spread Scrum
+
+#  1. Einführung
+
+## 1.0 Spread Scrum: Eine einfache und wirksame Vorgehensweise für verteilte Teams
+
+Fast alle Teams, die verteilt arbeiten müssen, starten mit der Suche nach der perfekten Kommunikationslösung und experimentieren mit Webkonferenzsystemen, mit Vido-Chats und vielem mehr.
+
+Tatsächlich ist aber alles, was Sie brauchen, ein kollaboratives Spreadsheet wie es sie von Microsoft, Google und anderen Anbietern gibt und ein Voice Chat wie Skype oder ähnliches. Mit nur diesen beiden sehr einfachen Werkzeugen kann man -- wenn man weiß, wie es geht -- alle agilen Vorgehensmodelle auch mit einem vollständig verteilten Team umsetzen. Egal, ob Sie über zwei Standorte verteilt arbeiten, oder ob Sie, so wie ich es mehrere Jahre gemacht habe, ein global verteiltes, rein virtuelles Team leiten.
+
+Alle Arbeitstechniken, die ich in diesem Buch vorstelle, haben meine Teams und ich über mehrere Jahre hinweg schrittweise entwickelt. Unser Ziel war dabei immer nur, einen Weg zu finden, wie wir gut zusammen arbeiten können. Dass wir damit letztlich sogar eine Menge Geld und Administrationsarbeit eingespart haben, waren nur willkommene Nebeneffekte.
+
+Genau wie bei standortfesten Teams ein einfaches Whiteboard mit Papierkarten sowohl die einfachste als auch die Beste Lösung für den Scrum-Alltag ist, so ist für virtuelle Teams ein kollaboratives Spreadsheet die einfachste, flexibelste und effektivste Lösung. Wie so oft im agilen Alltag gilt auch hier: Simplicity Wins.
+
+Die in diesem Buch gezeigten Vorgehensweisen und Arbeitstechniken folgen dem agilen Mantra von Einfachheit und Wirksamkeit und zeichnen sich dadurch aus, dass sie:
+
+  * schnell aufgesetzt sind -- eine Stunde genügt für das initiale Setup;
+
+  * effektiv sind -- viele virtuelle Arbeitstechniken, die ich ihnen hier für kollaborative Spreadsheets zeige -- beispielsweise das Teamwriting in Kapitel 4.1.1, sind sogar effektiver als die Arbeitstechniken, die üblicherweise in einem Real-Live-Meeting angewendet werden;
+
+  * sich sowohl für rein virtuelle Teams eigenen, bei denen jeder Mitabeiter sich an einem anderen Ort aufhält, als auch für gesplittete Teams, die nur die Zusammenarbeit zwischen zwei Standorten koordinieren müssen;
+
+  * kostengünstig sind -- wenn Sie möchten und es ihre Firmen-Policies zulassen, können Sie sogar komplett auf kostenlosen Systemen arbeiten.
+
+D> Wenn Sie bereits mit einem verteilten Team arbeiten, aber KEINE Erfahrung mit agilen Methoden haben, dann kann ihnen dieses Buch vielleicht eine Idee davon vermitteln, ob und wie agiles Arbeiten über die Entfernung hinweg mögchlich ist. Sie und ihr Team werden aber wahrscheinlich um eine Scrum-Schulung und ein aktives Coaching durch einen erfahrenen agilen Coach (wie z.B. den Autor) nicht herum kommen. 
+
+## 1.1 Wovon dieses Buch nicht handelt
+
+Es gibt viele Gründe, warum eine Organisation mit verteilten Teams arbeitet. Dies kann sich einfach aus der Größe des Unternehmens ergeben, es kann daran liegen, dass bestimmte Experten nur an anderen Standorten verfügbar sind oder es kann Kostengründe geben. 
+
+Dementsprechend unterschiedlich sind die Formen verteilter Teams. Die einfachste Variante kann ein Team sein, dessen Mitglieder auf mehrere Räume im gleichen Stockwerk verteilt sind, im Extremfall ist ein Team über mehrere Kontinente und Zeitzonen verteilt.
+
+Zu all diesen Aspekten gibt es eine Vielzahl an Literatur, die sich vor allem mit Fragen der Führung beschäftigt, aber auch mit interkulturellen Themen.
+
+Noch vielfältiger und inzwischen kaum noch überschaubar ist das Angebot an Büchern zu Scrum und allen Formen agiler Methoden. 
+
+Da es also sowohl zu Fragen der Führung von verteilten Teams als auch zum Thema Scrum ausreichend andere Literatur gibt, habe ich mich in diesem Buch ausschließlich auf die praktischen Fragestellungen zum agilen Arbeiten mit verteilten Teams konzentriert. 
+
+Dieses Buch behandelt deshalb folgende Themen NICHT:
+
+  * Wie Scrum, Kanban und andere agile Methoden funktionieren
+
+  * Ob und warum man überhaupt mit verteilten Teams arbeiten soll;
+
+  * Wie man über die Entfernung führt 
+
+  * Wie man interkulturelle Teams führt
+
+## 1.2 Formen verteilter Teams, die Sprachregelungen in diesem Buch
+
+Wenn von verteilten Teams die Rede ist, dann gibt es immer eine Begriffsunschärfe, da wir sprachlich nicht unterscheiden können, ob damit mehrere Teams an mehreren Standorten gemeint sind, oder ob wir über Teams sprechen, deren Mitglieder sich alle an unterschiedlichen Standorten befinden.
+
+Für die in diesem Buch vorgestellten Arbeitstechniken ist diese Unterscheidung jedoch nicht von Bedeutung, da verteilte Teams genau das gleiche Setup benötigen, wie virtuelle Teams. Warum das so ist und was sich daraus für Konsequenzen ergeben, erläutere ich in Kapitel 
+
+Tatsächlich macht es in der Praxis auch keinen besonderen Unterschied, ob die Gesprächspartner 6000 km entfernt sind oder nur ein Stockwerk höher sitzen. 
+
+Jede räumliche Trennung führt dazu, dass es keinen spontanen, informellen Austausch mehr gibt, weder visuell noch verbal. Schon bei einer kleinen räumlicher Distanz müssen ergänzende Kommunikations- und Arbeitstechniken verwendet werden, damit es nicht zu zu großen Reibungsverlusten kommt. In vielen agilen Softwareteams gilt deswegen zum Beispiel die eiserne Regel, dass alle Mitglieder eines Teams sich auch einen Raum teilen sollen. Die Praxis hat gezeigt, dass bereits die kleinste anzunehmende Distanz von zwei benachbarten Büros zu messbaren Performance-Verlusten führt. 
+
+D> Wenn ich in diesem Buch von „verteilten Teams" spreche, dann meistens in einem Kontext, bei dem es um die räumliche Entfernung geht. Wenn ich von „virtuellen Teams" spreche, dann hebe ich meist eher auf den Umstand ab, dass die Kommunikation gerade im virtuellen Raum statt findet.
+
+Je besser ein Team das Arbeiten über die Entfernung hinweg beherrscht, desto produktiver wird es. Und dies gilt für jede Entfernung. Von dem Wissen, wie man virtuelle Meetings durchführt, profitieren global verteilte  Teams, virtuelle Teams und Organisationen, deren Mitarbeiter „nur" ein Stockwerk von einander getrennt sind.
+
+# 2. Welche Lösungen nicht taugen -- und warum das so ist
+
+Inzwischen gibt es eine Vielzahl an Lösungen für die verteilte Arbeit. So gibt es beispielsweise Online-Aufgabenverwaltungen, Online-Editoren, Online-Grafik-Programme zum gemeinsamen Zeichnen und vieles mehr. 
+
+Interessanterweise sind die meisten aber nur für sehr spezielle Anwendungsfälle gedacht, wie beispielsweise das Editieren von Software durch lediglich zwei Personen. Dies ist natürlich ein Fortschritt gegenüber isolierten Lösungen. Für die Formen von Teamarbeit, wie sie bei agilen Methoden üblich sind und wo z.B. bei den Planungsmeeting meist zwischen fünf und zehn Personen beteiligt sind, sind solche Werkzeuge aber nicht ausreichend.
+
+Selbst viele Systeme, die ausdrücklich für virtuelle Zusammenarbeit konzipiert sind, erweisen sich in der Praxis als untauglich. So wie viele andere Leiter von verteilten Teams habe auch ich mich am Anfang mit solchen Scheinlösungen abgemüht. Die bekanntesten davon sind Projektmanagementsysteme, Webkonferenz-Systeme, kollaborative Editoren und asynchrone Kommunikationstools wie z.B. Foren-Programme. Alle diese werden wir uns jetzt einmal kurz näher anschauen und ich erläutere ihnen, warum diese in der Praxis leider nicht geeignet sind.
+
+### 2.0.1 Projektmanagement-Tools
+
+Viele Führungskräfte, die vor der Aufgabe stehen, ein verteiltes Team oder eine dezentrale Arbeitsgruppe zu organisieren, installieren oder aktivieren als erste Maßnahme ein Online-Projektmanagement-System. Die Idee dahinter ist, dass über ein solches System alle Beteiligten sehen können, welche Aufgaben anliegen, wem welche Verantwortung zugewiesen wurde, was noch offen ist und was bereits erledigt wurde.
+
+Das Problem mit Online-Projektmanagement-Werkzeugen ist jedoch, dass diese in erster Linie dafür konzipiert sind, Aufgabenlisten zu verwalten. Eine Aufgabenliste wird aber erst dann erstellt, wenn das Problem vorher zumindest intellektuell und planerisch bereits gelöst wurde. 
+
+Der entscheidende Wertschöpfungsprozess eines jeden Teams -- nicht nur der von verteilten Teams -- findet aber im Vorfeld der Aufgabendefinition statt. Nämlich dann, wenn die Beteiligten sich gemeinsam daran machen, die Aufgabenstellung zu analysieren, Lösungsideen zu entwickeln, diese wieder zu verwerfen, neu aufzugreifen, umzuformulieren. 
+
+Je besser dieser Prozess durch eine erfahrende Führungskraft gestaltet und moderiert wird, desto effizienter und effektiver wird dieser Lösungsprozess ablaufen . Erst ganz am Ende, wenn alle Fragen und alle Antworten mehrfach gedreht und gewendet wurden, müssen Arbeitspläne aufgestellt werden, die man dann, wenn man möchte, in ein Projektmanagement-Tool einpflegen kann. Für den eigentlichen Wertschöpfungsprozess eines Entwickler-Teams, das gemeinsame Analysieren von Problemen und das gemeinsame Erarbeiten von Lösungen leisten Projektmanagement-Systeme aber keinen Beitrag. Ich will damit nicht sagen, dass es für solche Systeme keinen Bedarf gibt, aber sie adressieren nicht das zentrale Problem der Zusammenarbeit über die Entfernung hinweg.
+
+### 2.0.2 Webkonferenz-Systeme
+
+Führungskräfte, die erkannt haben, dass der Erfolg ihres Teams in erster Linie von gelungener Kommunikation abhängt und nicht von der Verwaltung der Aufgaben, experimentieren früher oder später meist auch mit sogenannten Web-Konferenzsystemen. Diese sind ausdrücklich für virtuelle Zusammenkünfte konzipiert und bieten gleich ein ganzes Bündel an Werkzeugen und Features für die virtuelle Kommunikation. Dies reicht vom virtuellen Whiteboard über Voting-Tools und ein Chat-Fenster bis hin zu integrierten Video- und Sprachkanälen. 
+
+Die Praxis hat aber gezeigt, dass auch diese Systeme ein Real-Life-Treffen nicht wirklich ersetzen können. Die Arbeit mit diesen Lösungen ist eher umständlich und anstrengend und selten wirklich produktiv.
+
+Der Grund dafür ist ganz einfach der, dass Web-Konferenz-Systeme zwar für Zusammen*künfte* konzipiert sind, aber nicht für die Zusammen*arbeit*. 
+
+Webkonferenz-Systeme bilden in erster Linie einen klassischen, sprecherzentrierten Seminarraum nach. Der Sitzungsleiter oder Präsentator steht im Mittelpunkt, die übrigen Teilnehmer nehmen die Rolle von mehr oder weniger intensiv mitwirkenden Zuhörern ein. Diese Rollenaufteilung spiegelt sich auch im technischen Aufbau wieder. Der Sitzungsleiter bucht einen virtuellen Raum, steuert die Mikrofone und den Zugriff auf Features wie das Screensharing oder das Whiteboard und ähnliches mehr. 
+
+Das bedeutet, dass schon rein technisch keine Kommunikation auf Augenhöhe statt findet. Ein barrierefreies, aktives miteinander Arbeiten wie in einem Teamraum ist mit diesen Systemen fast nicht möglich.
+
+Des weiteren sind die meisten Web-Konferenz-Systeme darauf ausgelegt, dass die Teilnehmer den Konferenzraum nach dem Treffen auch wieder verlassen, so, als hätten sie einen Raum in einem Tagungshotel gebucht. Die Arbeitsumgebung von Agilen Teams zeichnet sich aber gerade durch die permanente Verfügbarkeit und Sichtbarkeit aus. 
+
+D> Niemand, der mit agilen Praktiken in standortfeste Teams Erfahrung hat, kämme auf die Idee, das Scrum-Board in einem Raum aufzuhängen, der nur nach vorheriger Buchung und nur für eine Stunde die Woche betreten werden kann. So, wie ein Scrum Board im Real Life im Teamraum für jeden sichtbar und zugänglich sein muss, so muss auch die Arbeitsumgebung in virtuellen Teams für alle Teammitglieder jederzeit verfügbar sein.
+
+### 2.0.3 Team-Workspaces
+
+Neben den bisher besprochenen Systemen gibt es noch eine Vielzahl weiterer Werkzeuge, die nach den Vorstellungen der jeweiligen Anbieter das gemeinsame Arbeiten über die räumliche Distanz hinweg unterstützen sollen. Dazu gehören vor allem Workspace-Lösungen, die meist eine Kombination aus Dateiablage, To-Do-Listen und internem Forum bieten. Zu den bekanntesten Vertreter dieser Kategorie gehören beispielsweise Basecamp und Zoho.
+
+Grundsätzlich beinhalten diese Workspaces zwar durchaus Funktionen, die man für die Arbeit mit verteilten Teams benötigt. 
+
+Für den agilen Alltag sind sie aber nicht ausreichend, da hier ein entscheidendes Werkzeug fehlt: Eine Arbeitsfläche, auf der die Teammitglieder direkt und in Echtzeit interagieren und gemeinsame Arbeitsergebnisse produzieren können.
+
+### 2.0.4 Videokonferenz-Systeme
+
+Videokonferenz-Systeme erscheinen vielen als DIE Lösung für verteiltes Arbeiten. Eines der Hauptargumente dafür ist, dass ein Video des Gegenübers wesentlich mehr Informationen liefert, als dies bei einer Telefonkonferenz der Fall ist.
+
+Oberflächlich betrachtet, leuchtet dies ein, in der Praxis kann aber kein Videosystem als Alltags-Werkzeug überzeugen. Es gibt drei Standard-Setups, für Video-Konferenzen, jedes davon hat eklatante Nachteile:
+
+**Video-Konferenz-Räume**  
+sind relativ aufwändige Setups, bei denen an zwei Standorten jeweils ein spezieller Konferenzraum mit Weitwinkel-Kameras, mehreren Mikrofonen und sehr großen Monitoren eingerichtet wird. Die Idee dahinter ist, dass über die aufwändige Technik ein Effekt erzielt wird, der dem eines standortfesten Meetings nahe kommt. 
+
+**Video-Chats**  
+sind sehr kostengünstige Lösungen, bei denen sich meist bis zu zehn Teilnehmern via Webcam zusammen schalten können. Jeder beteiligte überträgt dabei sein Bild an alle anderen, während er gleichzeitig alle anderen in kleinen Fenstern auf seinem Monitor sieht. Typische Vertreter hiervon sind Skype und Google Hangout.
+
+Egal welches System man verwendet, die Probleme sind immer die gleichen:
+
+Video-Konferenz-Systeme sind nicht gut für agile Meetings geeignet, da die gemeinsame Arbeitsfläche fehlt. Agile Meetings zeichnen sich gerade dadurch aus, dass sie konsequent Gebrauch machen von Moderationswerkzeugen wie Flipcharts, Boards, Karten mit Userstories und Karten mit Pokerwerten. Das zentrale Element agiler Teams ist die gemeinsame Produktion physischer(!) Ergebnisse wie Tasklisten etc.-- dies ist die Informationsebene auf die es wirklich ankommt. Ein Bildschirm mit zehn Videobildern ist hier nicht nur nicht hilfreich, sondern lenkt sogar von der eigentlichen Arbeit ab.
+
+Die einzige Lösung, die agilen Teams wirklich hilft, sind Video-Konferenz-Systeme, die die Raum-Illusion eines Konferenzraums mit intuitiv zu bedienenden virtuellen Whiteboards kombinieren. Allerdings haben auch diese Lösungen die beiden Nachteile, dass Sie einerseits sehr aufwändig sind und auch dann nur zwei Standorte miteinander verbinden können. Sobald sich einer oder mehrere Mitarbeiter an anderen Standorten aufhalten, funktioniert auch diese Lösung nicht mehr.
+
+# 3. Was verteilte Teams wirklich brauchen: kollaborative Werkzeuge
+
+Um zu verstehen, was man für die Arbeit im virtuellen Team wirklich benötigt, muss man verstehen, worauf es bei Scrum und anderen agilen Vorgehensweisen auch im Real Life wirklich ankommt. 
+
+Scrum Teams leben und atmen vor allem zwei Dinge:
+
+  * **Osmotische Kommunikation,**  
+das heißt, einem ständigen, allgemein sichtbaren Fluss von scheinbar Nebenläufiger Kommunikation. Deshalb sind im Idealfall alle Teammitglieder in einem Raum untergebracht, deshalb hängt das Board für alle sichtbar an der Wand .
+
+  * **Einfache ** **und**** wirksame Gruppenarbeitstechniken**  
+wie beispielsweise Daily Standups, Schätzpoker, Planungsmeeting I und II etc.
+
+Die Praxis hat dabei gezeigt, dass ein Team um so produktiver arbeiten kann, je weniger es durch komplizierte Werkzeuge von seiner Arbeit abgelenkt wird. *Simplicity Wins* lautet einer der Leitsäzte vieler erfolgreicher agiler Teams. Ein Board mit handgeschriebenen Karten wird von diesen Teams immer einer IT-Lösung bevorzugt, einen komplexen Prozess am Whiteboard oder Flippchart händisch zu visualisieren geht immer schneller als ein Diagramm in einem UML-Super-Power-Editor zu entwerfen.
+
+## 3.0 Simplicity Wins: Mit diesen zwei Tools ist ihr Team binnen einer Stunde arbeitsfähig
+
+Im Real Life können Sie mit Scrum auch sofort starten. Kein guter Scrum Master käme auf die Idee, den Start eines agilen Teams zu verschieben, nur weil das bestellte Whiteboard noch nicht geliefert wurde. Zur Not schreibt man die Userstories einfach auf Postits und heftet diese die direkt an die Wand.
+
+Genau so ist es mit virtuellen Scrum Teams. Was Sie wirklich benötigen, um loszulegen, sind nur zwei Systeme, die beide sogar kostenlos im Web verfügbar sind:
+
+  * Skype oder ein ähnlicher Messenger  
+für die osmotische Kommunikation mittels Chat, Awarenesstool und Team-Channel
+
+  * Ein kollaboratives Spreadsheet  
+wie Google Sheets oder Microsoft Excel Webedition als virtuellen Flippchart und virtuellen Arbeitsraum
+
+Alles andere bis hin zum Ticketsystem können Sie sich später anschaffen und nach Herzenslust auf ihre Anforderungen hin anpassen und konfigurieren. Wirklich wichtig sind aber nur der Gruppenchat und das kollaborative Spreadsheet. Allein mit diesen beiden Tools haben Sie bereits alles in der Hand, um ein virtuelles, vollständig verteiltes Scrum-Team mit bis zu zehn, zwölf Personen binnen einer Stunde arbeitsfähig zu machen.
+
+D> Zur Not können Sie auch ohne Ticket-System starten. Auch wenn niemand wirklich auf Dauer auf ein Ticketsystem darauf verzichten möchte, so kann man für den Anfang durchaus mit einem Spreadsheet und dazugehörigen Textdokumenten auskommen. Selbst einfache Systeme wie Fogbugz brauchen ihre Zeit, bis sie richtig konfiguriert sind, Systeme wie Jira, Team Foundation Server etc. sind noch einmal wesentlich aufwändiger zu installieren. 
+
+## 3.1 Gruppenarbeit verstehen: Was Flippcharts und Boards im Real Life so mächtig macht
+
+Im vorher gehenden Kapitel haben wir gesehen, welche Werkzeuge nicht für die virtuelle Teamarbeit geeignet sind und warum. Um nun aber zu verstehen, warum ein einfaches kollaborative Spreadsheet bereits ausreicht, um alle Anforderungen an virtuelle Teamarbeit abzudecken, hilft ein Blick auf die Werkzeuge und Methoden, die im Real Life dazu beitragen, dass ein Teammeeting erfolgreich verläuft.
+
+Als erstes benötigt eine Gruppe von Menschen, die gemeinsam Lösungen entwickeln möchte, auch ein gemeinsames Medium. In gut ausgestatteten Besprechungsräumen gibt es deshalb üblicherweise zumindest einen Beamer und ein Flipchart, häufig auch eine Moderationswand oder ein Whiteboard sowie einen Moderationskoffer mit Materialien, vor allem verschiedenfarbigen Blankokarten und Stiften.
+
+Abgesehen von dem Beamer sind die übrigen Medien, also Flipchart und Moderationskarten eigentlich sehr simpel. Im Wesentlichen handelt es sich um große, leere Schreibflächen. Es ist aber genau diese Einfachheit, die ihre Vielseitigkeit und ihre Flexibilität ausmachen, so dass man damit sehr verschiedene Besprechungsformate strukturieren kann. Dem Flippchart ist es egal, ob Sie es für ein Brainstorming, eine strukturierte Analyse oder eine To Do-Liste verwenden. Kaum etwas ist so universell einsetzbar, wie ein leeres Blatt Papier.
+
+Für die Teamarbeit haben ein Flippchart oder ein Whiteboard aber noch weitere, ganz entscheidende Eigenschaften:
+
+  * es gibt nur eine einzige, gemeinsamen Arbeitsfläche, auf die sich alle Teilnehmer fokussieren müssen;
+
+  * alle Informationen, mit denen gearbeitet wird, stehen allen Beteiligten gleichzeitig und gleichberechtigt zur Verfügung;
+
+  * alle Beteiligten müssen laufend einen Konsens darüber erzielen, was auf dem gemeinsamen Medium aufgeschrieben, oder geändert werden soll.
+
+##  3.2 Verteilte Teams benötigen kollaborative Medien
+
+Die Lösungen, die verteilte Teams benötigen, sind sogenannte kollaborative Medien. Von diesen gibt es inzwischen eine erfreuliche Bandbreite. Es gibt kollaborative Text-Editoren, kollaborative Zeichenprogramme, kollaborative Whiteboards und mehr.
+
+Alle diese Programme zeichnen sich durch folgende Merkmale aus:
+
+  * Alle Teilnehmer sind gleichberechtigt, es gibt keinen Meeting-Leiter mit Sonderrechten.
+
+  * Alle Teilnehmer können jederzeit schreiben, editieren und sogar löschen.
+
+  * Alle Teilnehmer sehen in Echtzeit, welche Aktivitäten die anderen gerade durchführen.
+
+## 3.3 Das Moderations-Know-How ist entscheidend
+
+Mit den diversen kollaborativen Programme verfügen wir bereits über die passenden Medien und Werkzeuge. Ein gemeinsames Medium alleine reicht aber noch nicht aus, damit die Online-Teamarbeit aber wirklich erfolgreich verläuft. Vielmehr kommt es entscheidend darauf an, dass der Gruppenarbeitsprozess von einer Führungskraft mit Moderationserfahrung auch gut strukturiert und geleitet wird.
+
+Dazu gehören vor allem Moderationstechniken zum strukturieren Sammeln von Ideen wie beispielsweise das Brainstorming, Vorgehensweisen zur Bewertung von Alternativen wie das Dot-Voting und mehr. 
+
+Es ist das Wissen um die richtige Gesprächsleitung, die dafür sorgt, dass nicht nur jeder Teilnehmer in der Lage ist, sich zu äußern, sondern auch aktiv dazu motiviert wird.
+
+Dieses Wissen um die richtige Moderationstechniken muss übrigens aktiv erworben werden, es erschließt sich nicht aus den Werkzeugen selbst. Auch wenn es den meisten von uns nicht bewusst ist, so haben wir alle uns das Wissen über wirksame Arbeitstechniken meist schon sehr früh im Studium oder im Berufsleben von anderen abgeschaut.
+
+D> * Gruppenarbeit erfordert geeignete und gemeinsam nutzbare Medien wie Flipcharts, Whiteboards oder Moderationskarten.
+
+D> * Gruppenarbeit führt nur zu guten Ergebnissen, wenn jeder aktiv eingebunden wird.
+
+D> * Das Wissen um gute Gruppenarbeitstechniken ist unabdingbar. Aus den Werkzeugen selbst erschließt sich nicht, wie man damit arbeitet.
+
+D> * Das theoretische Wissen muss durch ein geeignetes Training und eigene Erfahrungen ergänzt werden.
+
+# 4. Virtuelle Gruppenarbeit mit Spreadsheets
+
+Obwohl alle kollaborativen Werkzeuge ihre Berechtigung haben, sind erstaunlicherweise kollaborative Tabellen das mit Abstand beste Werkzeug für die virtuelle Teamarbeit. Genau wie ein Flippchart oder ein Whiteboard sind sie das flexible Universalwerkzeug für die Online-Gruppenarbeit.
+
+In Kombination mit Skype als Sprachkanal kann man mit kollaborativen Tabellen alle Fomen von Gruppenarbeit durchführen, die uns aus dem Real Life vertraut sind, teilweise geht dies sogar noch besser und effektiver. 
+
+Mit kollaborativen Tabellen kann man sehr einfach und wirksam:
+
+  * Brainstormings durchführen
+
+  * Storypoints auspokern
+
+  * Planungsmeetings abhalten 
+
+und vieles mehr.
+
+Zum Zeitpunkt des Erscheinens dieses Buches gibt es drei große bekannte Anbieter von kollaborativen Tabellenlösungen:
+
+  * Google Speadsheets, die Teil von Google Apps und Google Drive sind und von jedem genutzt werden können, der einen Google Account besitzt.
+
+  * Microsoft Excel als Web App-Lösung, die in Microsoft Onedrive für Privatpersonen ebenfalls kostenlos verfügbar ist. Für Firmenkunden gibt es sogar eine Appliance-Lösung, das heißt, die Web Apps können auf hausinternen Servern installiert werden, so dass die Daten wesentlich besser gesichert werden können, als dies bei einer Cloud-Lösung der Fall ist.
+
+  * Zoho Spreadsheets, eine ebenfalls sehr leistungsstarke Lösung, die aber fast nur unter Geschäftsanwendern bekannt ist, da Zoho, anders als Google und Microsoft, keine Lösungen für Privatkunden anbietet.
+
+Alle drei dieser Lösungen sind für den Einsatz in verteilten Teams gut geeignet, da sie über zwei Merkmale verfügen, die für die virtuelle Zusammenarbeit entscheidend sind: 
+
+  * **Die Position der Cursor werden in Echtzeit angezeigt** und 
+
+  * aufgrund der Zellenstruktur ist es **möglich, dass alle Teilnehmer gleichzeitig eine Aufgabenstellung bearbeiten** (also beispielsweise während eines Brainstormings Ideen eingeben), ohne sich gegenseitig zu stören.
+
+  * Alle Teilnehmer können **alle Einträge frei editieren**.
+
+Eine neu angelegte Tabelle, in die noch nichts eingetragen wurde, entspricht dem unbeschriebenen weißen Blatt auf dem Flipchart. 
+
+Eine leere Tabelle kann völlig frei gestaltet und für beliebige Themen so angepasst und genutzt werden, wie es für die jeweilige Aufgabenstellung optimal ist. Man kann in leeren Tabellen, außer Rechenaufgaben durchzuführen, beispielsweise auch Notizen anlegen, Aufgabenlisten erstellen, Gruppenabstimmungen durchführen oder komplette Arbeitsprozesse in Echtzeit visualisieren.
+
+Fast alle Nutzungsformen eines Flipcharts kann man also auch auf eine leere Tabelle übertragen. **Über die eingebauten Rechen- und Formatierungsfunktionen einer** **Tabelle erhält man aber noch eine Vielzahl von zusätzlichen Möglichkeiten für die Gruppenarbeit, die ein Flipchart und das Setting in einem Besprechungsraum nicht bieten.** So kann man die Einträge beispielsweise beliebig sortieren, filtern, farblich hervorheben, automatisiert auswerten, Statuswechsel anzeigen lassen, um zusätzliche Grafiken ergänzen und vieles mehr.
+
+  
+![Abbildung 1: Aufbau einer kollaborativen Tabelle, hier Microsoft Excel Web App](images/Abb01_Kollaborative_Tabellen_Print.gif)
+
+  
+
+
+D> Vielleicht sind kollaborative Tabellen das derzeit mächtigste Werkzeug für die Arbeit in Gruppen. Zumindest habe ich habe für mich die Erfahrung gemacht, dass es tatsächlich dazu kommen kann, dass Teams, die mit den in diesem Buch vorgestellten Methoden vertraut sind, Online-Meetings als produktiver wahrnehmen als eine Real-Life-Besprechung im normalen Sitzungsraum und mit den klassischen Werkzeugen.
+
+## 4.0 Mit kollaborativen Tabellen einen Teamraum erzeugen
+
+Es war jetzt bereits an mehren Stellen von dem Teamraum-Effekt die Rede, der dazu führt, dass die Teilnehmer in einem Spread Scrum Meeting völlig anders miteinander arbeiten können, als dies in Telefonkonferenzen oder Webkonferenzen der Fall ist. Der Teamraum-Effekt, den man durch die richtige Nutzung einer kollaborativen Tabelle erzeugen kann, ist dabei so stark, dass selbst mehrtägige Workshops online durchführbar sind, ohne dass die Teilnehmer dabei ermüden. 
+
+Dies ist übrigens auch der Grund, warum ich meine Spread Scrum-Seminare nur als Ganztages-Seminare anbiete: nur auf diese Weise erleben die Teilnehmer, dass und wie dies möglich ist. Im Vorfeld kommt dabei regelmäßig die Anfrage, ob ich das Spread Scrum-Seminar nicht auch auf zwei halbe Tage verteilten könnte, in der Feedbackrunde nach dem Seminar ist dann aber die häufigste Rückmeldung, die von den Teilnehmern kommt: „Ich hätte nicht gedacht dass es so völlig problemlos möglich ist, acht Stunden lang aussschließlich online zusammen zu arbeiten."
+
+Um zu verstehen, was der Teamram-Effekt ist und wie man ihn in einem virtuellen Meeting erzeugen kann, hilft ein Blick auf die Medien- und Raumnutzung in einem Real-Life-Workshop. Zwei Punkte sind hierbei von Bedeutung:
+
+  * **Die Gruppe muss ein gemeinsames Medium verwenden  
+**wie einen Flipchart oder eine Moderationswand. Solange jeder (wie beispielsweise in einer Sitzung) nur seine eigenen Unterlagen vor sich hat, werden nur Standpunkte ausgetauscht. Erst das gemeinsame Medium führt dazu, dass auch ein gemeinsames Ergebnis erarbeitet wird.
+
+  * **Es muss barrierefrei im Stuhlkreis oder im Stehen gearbeitet werden**. Nur wenn der Sitzungsleiter den Raum so vorbereitet, dass die Teilnehmer einander zugewandt sind und dass der Arbeitsbereich vor dem gemeinsamen Medium völlig frei zugänglich ist, kommt es zu echter Interaktion zwischen den Beteiligten. 
+
+Der Stuhlkreis, beziehungsweise die barrierefreie Arbeitsfläche sind einerseits dafür da, dass die Teilnehmer direkt zusammenarbeiten können. Auf der anderen Seite führt dieses Setting auch sofort dazu, dass in der Gruppe ein sozialer Kontrollmechanismus greift. Niemand, der auch nur über ein bisschen soziale Intelligenz verfügt, würde in einem solchen Setting beispielsweise während eines Brainstormings oder eines Dot-Votings vor den Augen aller Anderen sein Smartphone zücken, um „nur mal ganz kurz" eine Email zu beantworten.
+
+Die für uns wichtige Frage ist nun, was man tun muss, um diesen Teamraum-Effekt, der die Gruppe zusammenhält und eine produktive, konzentrierte Arbeitsatmosphäre erzeugt, in einem virtuellen Meeting zu reproduzieren.
+
+Interessanterweise führt die Anwesenheitsanzeige, über die fast alle Programme verfügen, die in irgend einer Form für die Gruppenarbeit gedacht sind und die signalisieren, welche Benutzer eingeloggt sind, nicht zum Teamraum-Effekt. Das Problem dabei ist, dass das Eingeloggt sein an sich keine Information darüber liefert, ob derjenige sich auch an der gemeinsamen Arbeit beteiligt oder ob er gerade in einem anderen Fenster seines Browsers ganz anderen Beschäftigungen nachgeht. Die „Ich bin eingeloggt"-Anzeige entspricht im besten Fall dem Zuhörer in einem Konferenzsaal, der in der letzten Reihe Platz genommen hat. Er ist zwar anwesend, aber es bleibt völlig unklar, ob er dem Geschehen auch tatsächlich folgt.
+
+Das entscheidende Feature dafür, dass man in kollaborativen Tabellen einen Teamraum-Effekt erzeugen kann, bei dem nicht nur die Anwesenheit, sondern auch die aktive Mitarbeit sichtbar wird, ist die Echtzeitanzeige *der Cursor* der Beteiligten. Der Cursor zeigt Allen an, wo man sich auf der gemeinsamen Tabelle gerade aufhält. Da diese Information aber von jedem kommt und für alle sichtbar ist, kommt es auch zur sozialen Kontrolle, da alle Beteiligten es sofort wahrnehmen, wenn sich jemand eben *nicht* an der gemeinsamen Arbeit beteiligt.
+
+Auch im Real Life ergibt sich die Zusammenarbeit aber nicht einfach nur aus einem Stuhlkreis und dem gemeinsam genutzten Medium. Der Sitzungsleiter oder Moderator muss die Gruppe auch in der physischen Nutzung des Raumes anleiten. Er ist derjenige, der die Position des Flipcharts oder der Moderationswand im Raum bestimmt, er gibt Karten für Brainstormings aus, bittet die Gruppe nach vorne zu kommen oder wieder Platz zu nehmen und so weiter.
+
+Kollaborative Tabellen sind derzeit das einzige Online-Medium, in dem der Moderator aufgrund der Echtzeitanzeige der Cursor die Teilnehmer genau so räumlich dirigieren kann, wie dies in einem Real Life-Meeting der Fall ist. Die drei grundlegenden Techniken hierfür sind die Check-In-Zone, die Namensspalten und das Cursor-Gathering.
+
+### 4.0.1 Eine Check-In-Zone einrichten
+
+Die Check-In-Zone entspricht den Sitzplätzen in einem Stuhlkreis. Sie besteht aus einem kleinen Bereich oben links. Dort tragen Sie als Moderator die Namen oder Namenskürzel aller Beteiligten in alphabetischer Folge ein. Wichtig ist, dass Sie diese Check-In-Zone auf jedem Arbeitsblatt anlegen, dass von der Gruppe benutzt wird -- das Einchecken auf neuen Arbeitsblättern ist die wichtigste Funktion dieses Bereichs, daher auch die Bezeichnung als Check-In-Zone.
+
+  
+![Abbildung 2: Die gemeinsame Check -In-Zone für alle Teilnehmer](images/Abb02_Check_in-Zone_print.gif)
+
+  
+Während dem gesamten Spread Scrum Meeting bitten Sie die Teilnehmer nun jedes Mal, wenn eine neue Datei oder ein neues Arbeitsblatt geöffnet werden soll, dass jeder hier sofort seinen Cursor auf sein Namensfeld positioniert. Auf diese Weise sehen Sie als Moderator und auch alle übrigen immer sofort, wer schon auf seinem Platz ist oder wer noch fehlt. 
+
+### 4.0.2 Parallele, synchrone Gruppenarbeit über Namensspalten
+
+Über Namensspalten organisieren Sie die aktive Gruppenarbeit auf dem gemeinsamen Medium. Dies entspricht praktisch dem Moment einer Teilnehmer-Aktion wie beispielsweise dem Dot-Voting in einem Real-Life-Meeting. An einer Moderationswand kleben die Teilnehmer Punkte oder sortieren Karten. Im virtuellen Meeting nutzen Sie dafür Namensspalten, das heißt Spalten, die mit den Namen der Teilnehmer beschriftet sind und diesen jeweils als eigene, persönliche Arbeitsfläche dienen. In dem Screenshot in Abbildung 3 sehen wir in (1) einen solchen Eingabebereich, in dem gerade ein Dot-Voting durchgeführt wird. Wie man das Dot-Voting an sich vorbereitet und anleitet, ist in Kapitel 4.3.2 Dot-Voting per Tabelle beschrieben.
+
+  
+![Abbildung 3: Namensspalten innerhalb einer Tabelle](images/Abb03_Namensspalten_print.gif)
+
+  
+
+
+### 4.0.3 Das Team zusammen halten und fokusieren mit dem Cursor-Gathering
+
+Die Abbildungen und Beispiele hier im Buch sind aufgrund der Übersichtlichkeit immer recht kurz gehalten. In echten Teammeetings können kollaborative Tabellen, mit denen komplexe Projekte oder Themen bearbeitet werden, sehr umfangreich werden. Mit dem Cursor-Gathering können Sie die Teilnehmer als Gruppe so zu einem bestimmten Bereich führen und gleichzeitig wieder sicherstellen, dass Sie als Meetingleiter und alle anderen Teilnehmer sofort sehen, ob alle Beteiligten „mitgekommen" sind. Dieser Vorgang ist vergleichbar mit dem Vor- und Zurückblättern in schon beschriebenen Flipcharts.
+
+Für das Cursor-Gathering werden keine bestimmten Zellen benötigt. Es genügt, dass Sie eine Zelle als „Zielzelle" farbig hervorheben und dann die Teilnehmer bitten, ihre Cursor ebenfalls in den umliegenden Zellen zu platzieren. Da Sie und alle anderen ja wissen, wie viele Personen am Spread Scrum Meeting teilnehmen, sehen Sie anhand der Zahl der Cursor sofort, ob alle an die richtige Position gesprungen sind. Wenn Sie diese Art der Gruppennavigation zwei-, dreimal gemacht haben und die Teilnehmer damit vertraut sind, genügt eine einfache Ansage wie beispielsweise „Bitte kommt zu Zelle C234 und lasst uns Punkt XY besprechen!" und die Teilnehmer werden bereits von sich aus ihre Cursor dort platzieren. 
+
+##  4.1 Brainstorming mit verteilten Teams
+
+Eine der ältesten Gruppenarbeitstechniken ist das Brainstorming, welches heute im Real Life meist in der weiterentwickelten Form des Brainwritings durchgeführt wird. 
+
+Bei einem Brainstorming rufen die Teilnehmer ihre Ideen und Vorschläge in den Raum, während der Moderator am Flipchart steht und alle Beiträge sofort und für alle sichtbar mitschreibt. Dabei gelten für die Durchführung folgende Regeln: Jeder Vorschlag ist zulässig, jeder kann auf den Vorschlägen der anderen aufbauen und daraus neue Ideen formulieren, andere Ideen dürfen aber keinesfalls bewertet oder gar kritisiert werden.
+
+  
+{width=60%}
+![](images/illu01.jpg)
+
+Die Idee hinter dem klassischen Brainstorming ist, dass eine Idee eine andere inspiriert und die Teilnehmer auf diese Art in einem Kreativitätsschub eine Vielzahl von Lösungsideen entwickeln. In der Praxis wird Brainstorming heute aber kaum noch durchgeführt, da es zwei Probleme bei der Umsetzung gibt. Das eine ist, dass der Moderator einen Engpass darstellt und oft mit dem Aufschreiben nicht hinterher kommt, was dann wiederum dazu führt, dass die Teilnehmern pausieren müssen und der Ideenfluss unterbrochen wird. Das andere ist, dass sich gezeigt hat, dass es den meisten Menschen sehr schwer fällt, in der hitzigen Atmosphäre eines Brainstormings andere Ideen nicht spontan zu kommentieren. Oft kommt es doch zu Zwischenrufen wie „das hatten wir doch schon" oder „das ist zu teuer" etc. Solche Zwischenrufe sind aber Gift für die freie Ideenfindung und lassen ein Brainstorming sehr schnell erlahmen.
+
+Heutzutage wird in Workshops vor allem eine Gruppenarbeitstechnik eingesetzt, die mit dem Fachbegriff Brainwriting bezeichnet wird. Beim Brainwriting verteilt der Sitzungsleiter an alle Teilnehmer Papierkärtchen und Stifte. Dann bittet er die Anwesenden, dass jeder so viele Ideen wie möglich aufschreibt, jeweils eine pro Karte. Nach einigen Minuten, sobald alle Teilnehmer mit ihren Notizen zu Ende gekommen sind, werden die Karten eingesammelt und an einer Moderationswand für alle sichtbar angepinnt. Da es bei diesem Vorgehen zu sehr vielen ähnlichen und doppelten Beiträgen kommt, werden die Karten nun in einem ersten Schritt nach Ähnlichkeit / Gleichheit gruppiert, so dass die Ideensammlung übersichtlicher wird und besser weiterbearbeitet werden kann. 
+
+Dieses Brainwriting hat den Vorteil, dass alle Teilnehmer parallel arbeiten können, so dass im gleichen Zeitraum unter Umständen deutlich mehr Vorschläge erzeugt werden, als beim Brainstorming. Außerdem sind beim Brainwriting die Beiträge stärker anonymisiert, da hinterher nicht mehr direkt sichtbar ist, welcher Vorschlag von welcher Person gemacht wurde. Dies trägt deutlich dazu bei, dass die Diskussionen in der folgenden Bewertungs- und Analysephase sachbezogener verlaufen.
+
+###  4.1.1 Die Teamwriting-Technik -- Ideen sammeln im virtuellen Meeting
+
+Bei der Arbeit mit einer kollaborativen Tabelle kann man die Vorteile des Brainstormings und Brainwritings kombinieren.
+
+Alles, was Sie für diese Technik, die wir Teamwriting genannt haben, benötigen, ist eine leere Tabelle oder ein leeres Tabellenblatt.
+
+D> Starten Sie jeden neuen Arbeitsschritt damit, dass Sie die Teilnehmer „um sich scharen", beispielsweise, indem Sie sie auffordern, ihre Cursor in der Check-In-Zone auf ihrem Namensfeld zu platzieren.
+
+Schreiben Sie als Moderator als Erstes in einem ansonsten leeren Tabellenblatt in die erste Zeile die konkrete Aufgabenstellung, die Ihre Teilnehmer behandeln sollen. Am besten machen Sie dies live und holen Sie dann von den Teilnehmern eine kurze Rückmeldung ein, ob alle mit der gewählten Formulierung einverstanden sind oder ob es Korrekturvorschläge, Präzisierungen oder Berichtigungen gibt.
+
+Sofern es das erste Mal ist, dass das Team ein Teamwriting durchführt, müssen Sie kurz das weitere Vorgehen erläutern. Teilen Sie dem Team mit, dass es beim Teamwriting um eine Online-Version des Brainstormings geht, dass nun aber alle Teilnehmer gleichzeitig schreiben können und dass es wie sonst auch zuerst darum geht, vollkommen unzensiert möglichst viele Ideen zu sammeln.
+
+  
+
+
+  
+
+
+![Abbildung 4: Teamwriting](images/Abb04_Teamwriting_print.gif)
+
+Danach erläutern Sie die Regeln:
+
+  * Alle sollten ihre Beiträge wenn möglich in der gleichen Spalte (3) eintragen, dies erleichtert später die weitere Bearbeitung. Allerdings sollte jeder darauf achten, dass er seinen Cursor nur in freie Zellen setzt und keine Beiträge von anderen überschreibt.
+
+  * Die Beiträge anderer Teilnehmer sollen weder mündlich noch schriftlich kritisiert oder gar gelöscht werden.
+
+  * Die Beteiligten sollen ausdrücklich nicht darauf achten, ob ein gleicher oder ähnlicher Beitrag schon angelegt wurde -- dies bremst den Ideenfluss. Doppelte Beiträge sind unschädlich und können später gemeinsam aussortiert werden.
+
+  * Wer fertig ist, zeigt dies an, in dem er seinen Cursor wieder auf sein Namensfeld oben links in der Check-In-Zone (1) platziert.
+
+Als Moderator können Sie, um die Kreativität der Beteiligten etwas zu befeuern, zusätzlich darum bitten, dass jeder Teilnehmer mindestens drei Beiträge liefern solle. Die Erfahrung zeigt, dass sobald die erste Schreibhemmung überwunden ist, die weiteren Beiträge von alleine fließen. Sollte trotzdem jemand nur sehr zögerlich etwas beitragen, können Sie diese Person auch mit einer privaten Chatnachricht ermutigen oder Sie können, ohne jemanden namentlich zu erwähnen, über den Audio-Kanal noch einmal die ganze Gruppe darauf hinweisen, dass jeder Beitrag wertvoll ist.
+
+### 4.1.2 Arbeitsergebnisse transparent clustern und strukturieren -- so geht es
+
+  
+Bei einem Brainwriting im Real Life werden am Ende alle Karten an der Moderationswand angepinnt und dann geclustert, das heißt, nach Ähnlichkeiten oder Zusammengehörigkeit sortiert und strukturiert. Es gibt dafür im Wesentlichen zwei Vorgehensweisen. In der schnellen Variante begeben sich alle Teilnehmer zur Moderationswand und bilden durch Umheften verschiedene Gruppen, in einer anderen Variante liest der Moderator jede Karte vor und stimmt mit der Gruppe ab, wie er mit der Karte verfahren soll.
+
+{width=60%}
+![](images/illu02.jpg)
+
+In einem virtuellen Meeting müssen die Ergebnisse eines Teamwritings ebenfalls gemeinsam gesichtet und sortiert werden. Als Moderator eines virtuellen Meetings könnte man jetzt versucht sein, die Beiträge über die Editierfunktionen „Ausschneiden" und „Einfügen" umzusortieren, so wie es an einer Moderationswand durch Umpinnen erfolgt. Erfahrungsgemäß kommt es bei solch einem Vorgehen aber sehr schnell zu Fehlern, da man beim wiederholten Kopieren und Löschen von Zeilen und Zellen schnell die Übersicht verliert. Innerhalb ganz kurzer Zeit geschieht es dann, dass einzelne Beiträge aus Versehen gelöscht wurden, während andere beim Umkopieren verdoppelt wurden.
+
+Es gibt aber einen sehr einfachen Weg, wie Sie nicht nur das Chaos vermeiden, sondern das Clustern auch so durchführen können, dass alle Beteiligten in der Lage sind, der Überarbeitung visuell zu folgen und letztlich auch über die Gruppierungen zu entscheiden.
+
+Der Trick besteht darin, dass Sie nicht die Beiträge selbst anfassen und verschieben, sondern dass Sie vielmehr eine zweite Spalte rechts oder links von der Spalte mit den Originalbeiträgen nutzen -- und in dieser zweiten Spalte tragen Sie Oberbegriffe oder Schlüsselbegriffe ein. Fangen Sie einfach oben mit dem ersten Beitrag an und vergeben Sie für diesen in Absprache mit den Teilnehmern einen ersten Oberbegriff. Danach gehen Sie zum nächsten Beitrag. Wenn dieser das gleiche Thema betrifft, geben Sie das Stichwort zum zweiten Mal ein, wenn er ein anderes Thema behandelt, vergeben Sie einfach einen neuen Oberbegriff. Auf diese Weise gehen Sie Beitrag für Beitrag die gesamte Liste durch. 
+
+  
+![Abbildung 5: Die Beiträge des Teamwritings Clustern](images/Abb05_Teamwriting_Clustern_print.gif)
+
+  
+Innerhalb weniger Minuten können Sie auf diese Weise allen Beiträgen einen Oberbegriff zuordnen und da die Reihenfolge der ursprünglichen Beiträge währenddessen unverändert bleibt, können die Teilnehmer Ihnen auch visuell sehr leicht folgen. 
+
+D> Oberbegriffe sind für den Moderator leicht zu handhaben, andererseits schränken sie bei den Teilnehmern auch das freie Assoziieren ein. Manche Spread Scrum-Practicioners bevorzugen es deshalb, beim Clustern anstelle von Oberbegriffen nur neutrale Buchstaben-Codes oder Ziffern zu vergeben.
+
+Sobald Sie mit der Klassifizierung aller Beiträge zu Ende sind, kommt der entscheidende Schritt. Wenn Sie jetzt die Tabelle nach der *zweiten* Spalte, in der die Oberbegriffe stehen, sortieren, stehen sofort alle zusammen gehörigen Beiträge in einer Reihe untereinander. Nun können Sie diese Liste noch einmal mit den Teilnehmern durchgehen, gegebenenfalls Korrekturen vornehmen und vor allem doppelte oder sehr ähnliche Einträge löschen.
+
+  
+![Abbildung 6: Nach Themen/Oberbegriffen sortierten Beiträge](images/Abb06_Teamwriting_Clustern_sortiert_print.gif)
+
+  
+
+
+Spätestens jetzt können Sie zum nächsten Arbeitsschritt übergehen. Üblicherweise besteht dieser in einer Priorisierung der Themengruppen und deren anschließender Bearbeitung. Wie man solch eine Priorisierung beispielsweise mit dem Dot-Voting durchführt, ist in Kapitel 4.3.2 Dot-Voting per Tabelle beschrieben.
+
+##  4.2 Die Matrix-Diskussion:   
+Komplexe Themen in kurzer Zeit und in Teamarbeit analysieren
+
+Das Teamwriting ist nur der erste Schritt bei der Bearbeitung einer Aufgabenstellung. Die dabei gesammelten Beiträge müssen im nächsten Schritt auf ihre Tauglichkeit untersucht und gegebenenfalls weiter analysiert werden.
+
+Im Real-Life-Meeting kann man dies entweder verbal durchführen oder man kann, sofern die Zahl der Beiträge überschaubar ist, für jeden Vorschlag ein neues Blatt vom Flipchart verwenden und darauf in Gruppenarbeit die Für und Wider sammeln. 
+
+Online ist diese Aufgabe scheinbar anspruchsvoller. Eine Diskussion im Audio-Kanal führt schnell dazu, dass sich Wortführer herausbilden, während andere Beteiligte, die vielleicht sehr wichtige Beiträge leisten könnten, in Schweigen verfallen. Im Text-Chat ist eine strukturierte Diskussion ohnehin nicht möglich.
+
+Tatsächlich können wir aber auch diese Aufgabe sehr gut mit einer kollaborativen Tabelle durchführen und zwar direkt in dem Arbeitsblatt, in dem die zur Diskussion stehenden Beiträge aufgeführt sind.
+
+D> Meine Seminarteilnehmer stellen regelmäßig überrascht fest, dass man mit der Matrixdiskussion in kurzer Zeit sogar eine ziemlich große Zahl an Alternativen bearbeiten kann -- und zwar effizienter und strukturierter, als dies in einem Real-Life-Meeting möglich ist.
+
+Die Matrix-Diskussion ist eine sehr vielfältig einsetzbare Gruppenarbeitstechnik, die nicht auf die Nachbearbeitung von Ideen oder Vorschlägen aus einem Teamwriting beschränkt ist. Sie können damit jede Form von Aufgaben- oder Ideenlisten bearbeiten.
+
+  
+![Abbildung 7: Matrixdiskussion](images/Abb07_Matrixdisk_print.gif)
+
+  
+
+
+### 4.2.1 So führen Sie eine Matrix-Diskussion durch
+
+Als erstes legen Sie für eine Matrix-Diskussion als Moderator ein neues Arbeitsblatt in der bestehenden Tabelle an.
+
+Nun erzeugen Sie auf dem Arbeitsblatt am besten live, vor den Augen der Gruppe, die Themenliste, indem Sie beispielsweise die Ergebnisse eines Teamwritings hinein kopieren, Sie können natürlich aber auch jede andere Quelle verwenden.
+
+D> Wenn Sie andere Quellen verwenden, beispielsweise Aufgaben aus einem Projektmanagement-System oder Vorschläge aus ihrem Kundenforum oder was auch immer, dann sollten Sie als Moderator vorab ausprobiert haben, ob und wie Sie diese Daten in die kollaborative Tabelle bekommen. Manchmal muss man dafür etwas experimentieren und dies sollte nicht während des Meetings geschehen, wenn die anderen Teilnehmer darauf warten, dass es endlich mit der inhaltlichen Arbeit weitergeht.
+
+Sobald die Themenliste angelegt ist, leiten Sie die eigentliche Diskussion ein. Dafür gelten folgende Regeln, die Sie vorab den Teilnehmern erläutern müssen:
+
+  * Jeder Teilnehmer schreibt zu beliebigen Vorschlägen rechts davon seine Sichtweise in die nächste leere Zelle. Jeder kann in beliebiger Reihenfolge zu jedem Thema eine Beitrag schreiben, es gibt keine festgelegte Reihenfolge.
+
+  * Auf jeden neuen Beitrag kann man rechts davon wieder einen weiteren Beitrag schreiben. Anders als beim Brainstorming/Teamwriting sind in der Matrix-Diskussion Ergänzungen, Nachfragen oder andere Sichtweisen ausdrücklich erwünscht.
+
+  * Jeder achtet darauf, nur in leere Zellen zu schreiben. Zellen, in denen bereits etwas steht oder in denen von jemand anderem ein Cursor platziert wurde, dürfen nicht benutzt werden.
+
+  * Wer möchte, kann eigene Fragen oder fremde Beiträge, die er für besonders wichtig hält, auch gerne mit einer Hintergrundfarbe hervorheben, um die Aufmerksamkeit der anderen Teilnehmer darauf zu lenken.
+
+  * Wer fertig ist, setzt seinen Cursor wieder auf seine Initialen in der Check-In-Zone.
+
+Ich erlebe in meinen Seminaren immer wieder, dass die Teilnehmer am Anfang etwas zögerlich in die Matrix-Diskussion einsteigen, da es dazu keine Analogie im Real Life gibt und ihnen dieses Format somit -- im Gegensatz zum Brainstorming beispielsweise -- völlig unbekannt ist. Was dann geschieht, sorgt aber regelmäßig für Erstaunen und eine positive Überraschung. Anders als in sonstigen Gruppendiskussionen, bei denen es oft darum geht, wer als Erster oder als Lautester das Wort ergreift, verfallen die Teilnehmer einer Matrix-Diskussion immer in fast völliges Schweigen. Hochkonzentriert werden eigene Beiträge geschrieben, die Beiträge anderer Kollegen aufgegriffen, weiterentwickelt und kreuz und quer editiert. Da alle gleichzeitig arbeiten und jeder Beitrag sofort für alle sichtbar ist, entsteht eine hochgradig produktive Atmosphäre, bei der in sehr kurzer Zeit sehr viele Gesichtspunkte, Argumente und zusätzliche Informationen zusammengetragen werden. Anders als in mündlichen Diskussionen drehen sich dabei die Diskussionen auch nie im Kreis, da ein einmal niedergeschriebenes Argument oder eine Information nicht mehr wiederholt werden müssen, beziehungsweise es jedem Beteiligten sofort klar ist, dass dies albern wäre.
+
+Je öfter Ihre Teilnehmer mit einer Matrix-Diskussion gearbeitet haben, desto freier werden sie diese benutzen und es werden sich relativ schnell komplexe, non-verbale Dialoge und unkonventionelle Kommunikationsmuster entwickeln.
+
+Während Sie sonst in den meisten Szenarien darauf achten müssen, dass die Struktur eingehalten wird, ist es in der freien Diskussion genau umgekehrt. Je spielerischer und freier Ihre Gruppe die Diskussionstabelle nutzt, desto produktiver ist sie.
+
+Ab einem gewissen Zeitpunkt wird die Zahl der Beiträge von alleine immer mehr zurück gehen und die Diskussion wird ihren natürlichen Abschluss finden. An diesem Punkt können Sie auf den nächsten Arbeitsschritt überleiten, die Auswertung. Für diese stehen nun bei der Arbeit mit kollaborativen Tabellen wesentlich mehr Möglichkeiten zur Verfügung, als dies in Workshops mit traditionellen Medien der Fall ist.
+
+##  4.3 Als Gruppe Optionen bewerten, priorisieren und darüber abstimmen
+
+Wenn es in einem Real-Life-Meeting darum geht, aus einer Reihe von Optionen die wichtigsten zu bestimmen und damit Prioritäten zu setzen, wird meist mit dem sogenannten Dot-Voting gearbeitet. Diese Form der Entscheidungsfindung zielt darauf ab, gruppendynamische Effekte zu reduzieren und jedem Teilnehmer das gleiche Gewicht zukommen zu lassen. Alle anderen Formen der Priorisierung oder des Aufstellens von Ranglisten etc. werden meist verbal ausgehandelt. Da es hierfür keine geeignete Arbeitstechnik gibt, mit der man für eine gleichgewichtige Beteiligung aller sorgen kann, hängt bei diesem verbalen Ausdiskutieren von Prioritäten sehr viel von der qualifizierten Moderation des Sitzungsleiters ab.
+
+Im virtuellen Meeting mit kollaborativen Tabellen hat man als Sitzungsleiter wesentlich mehr Möglichkeiten zur Hand. Gerade Priorisierungen unterschiedlichster Art, das Bewerten von Alternativen oder Abstimmungen lassen sich mit einer interaktiven Tabelle wesentlich leichter strukturieren und durchführen. Im Folgenden schauen wir uns drei Varianten an, mit denen Sie als Moderator oder Teamleiter die meisten Anforderungen, die in Meetings oder Workshops auftauchen, abdecken können.
+
+###  4.3.1 Place your Cursor: Einfache ja/nein-Abstimmungen, Terminfindungen etc.
+
+Häufig gibt es in Besprechungen kleine, einfache Fragestellungen, bei denen es nicht besonders darauf ankommt, das Ergebnis festzuhalten und zu dokumentieren. Dazu gehören Fragen wie „Wann treffen wir uns das nächste Mal?" oder Ähnliches.
+
+  
+![Abbildung 8: Einfache Abstimmung mittels Platzieren der Cursor](images/Abb08_Einfache_Abstimmung_Print.gif)
+
+  
+Die folgende Abbildung 8 zeigt, wie Sie solche Kurzabstimmung noch einfacher als mit den bisher gezeigten Techniken durchführen können. Das Prinzip ist das gleiche wie bei den bekannten Doodles. Nur können sie die Abstimmung hier sofort durchfüren. Sie müssen weder den Workspace ihres Teams verlassen müssen, noch müssen Sie ein Doodle aufsezten und sie können diese Technik auch für viele andere Fragestellungen als nur zur Terminfindung verwenden. 
+
+Schreiben Sie als Moderator einfach das Thema für alle sichtbar in den oberen Tabellenbereich (1). Darunter führen Sie die zur Abstimmung stehenden Alternativen auf (2). 
+
+Sobald Sie fertig sind, bitten Sie die Teilnehmer einfach, ihre Cursor in die entsprechende Spalte ihrer Wahl zu setzen (3). Die Teilnehmer müssen keine Eingabe tätigen, allein durch das Platzieren der Cursor und die damit sichtbar werdenden farbigen Felder sieht jeder sofort das Ergebnis.
+
+D> Haben Sie es bemerkt? Selbst in diesem einfachen Beispiel geht die Abstimmung über eine Tabelle schneller und unkomplizierter vonstatten als in einem Real-Life-Meeting. Wer von uns hat es nicht schon erlebt, dass für eine einfache Terminabstimmung in einer größeren Gruppe mindestens drei Anläufe nötig sind, bis man sich darauf geeinigt hat, dass jetzt alle die Hand heben, die für Dienstag sind. Und dann alle, die für Mittwoch sind. Und keiner darf dabei mit den Tagen durcheinanderkommen und kurz bevor man ein Ergebnis hat, fragt noch jemand, was eigentlich mit dem Donnerstag sei, ob der jetzt auch noch zur Abstimmung stehe, weil dann würde er gerne sein Voting für Dienstag zurückziehen und alles geht noch mal von vorne los ...
+
+###  4.3.2 Dot-Voting per Tabelle
+
+#### 4.3.2.1 Grundlagen
+
+Beim Dot-Voting geht es immer darum, aus einer Liste von Vorschlägen die zu identifizieren, denen nach Ansicht der Teilnehmer die höchste Priorität zukommt und die vordringlich bearbeitet werden sollen. Alle anderen Alternativen werden dann zurückgestellt oder gar nicht erst behandelt.
+
+Diese Priorisierungstechnik heißt so, weil den Teilnehmern im Real Life dabei Klebepunkte (englisch Dots), ausgehändigt werden, wobei jeder Teilnehmer immer deutlich weniger Klebepunkte erhält, als Optionen zur Verfügung stehen. Bei zehn Alternativen werden beispielsweise pro Teilnehmer meist nur drei bis vier Punkte zugelassen. Dann werden die Teilnehmer gebeten, zur Moderationswand oder zum Flipchart zu gehen und dort ihre Punkte neben den von ihnen präferierten Alternativen aufzukleben. Die geringe Anzahl an verfügbaren Klebepunkten zwingt die Teilnehmer nun, sich zu entscheiden und verhindert Stellungnahmen wie „eigentlich finde ich alles wichtig". Sobald die Teilnehmer ihre Punkte vergeben haben, ist das Ergebnis sofort für alle sichtbar. 
+
+  
+{width=60%}
+![](images/illu03.jpg)
+
+####  4.3.2.2 Dot-Voting mit der Tabelle
+
+In einer kollaborativen Tabelle kann man ein Dot-Voting sehr einfach durchführen. Zuerst legen Sie die Vorschlagsliste an (1), danach die Spalten mit den Namen der Teilnehmer (2).
+
+Sobald Sie mit der Vorbereitung fertig sind, teilen Sie den Beteiligten, mit, wie viele Punkte jeder vergeben darf. Nun kann jeder im Eingabebereich (4) überall dort eine „1" eintragen, wo er oder sie eine Priorität setzen möchte.
+
+  
+![Abbildung 9: Dot-Voting im Spread Scrum Meeting](images/Abb09_Dot_Voting_print.gif)
+
+  
+Damit niemand aus Versehen zu wenig oder zu viele Prioritätspunkte vergibt, tragen sie als Moderator unter die jeweiligen Namensfelder noch eine einfache Summenformel ein (3). Auf diese Weise kann jeder sehen, ob er bereits alle Punkte vergeben hat. Über eine zweite Summenformel, die die Punkte in jeder Zeile addiert, werden die Ergebnisse (5) für jede Alternative und damit die Prioritäten der Teilnehmer sofort sichtbar. 
+
+D> Denken Sie daran, dass Sie die Teilnehmer, darum bitten, dass jeder, der seine Eingaben beendet hat, seinen Cursor wieder in der Check-in-Zone platziert. Dies bringt deutlich Ruhe in den Ablauf.
+
+Falls Sie die Tabelle jetzt nach Priorität sortieren möchten, können Sie dies mit einem Mausklick über die Sortierfunktion erledigen.
+
+Genau wie in der Real-Life-Moderation können Sie nun dazu übergehen, die Themen in der Reihenfolge der Priorisierung mit der Gruppe abzuarbeiten. 
+
+### 4.3.3 Schätzpoker online durchführen
+
+Mit einer kollaborativen Tabelle lässt sich auch das Schätzpoker genauso gut durchführen wie in einem Meetingraum. Als Erstes legen Sie dazu als Moderator für jeden Teilnehmer eine eigene Spalte an und versehen diese in der Titelzeile mit Namenskürzeln, damit später jeder weiß, wo er seine Eingaben tätigen soll. 
+
+Gehen Sie nun auf die Zeile mit dem ersten Eintrag ihrer Liste und aktivieren Sie für diese eine Hintergrundfarbe -- auf diese Weise ziehen Sie die Aufmerksamkeit aller Teilnehmer automatisch auf die richtige Position.
+
+  
+![Abbildung 10: Schätzpoker](images/Abb10_Schaetzpoker_print.gif)
+
+  
+
+
+Bitten Sie nun den Autor des Eintrags, diesen kurz vorzulesen und gegebenenfalls noch einige Erläuterungen hinzuzufügen. Achten Sie an dieser Stelle aber darauf, dass wirklich nur Verständnisfragen erörtert werden. Teams, die mit diesem Format noch nicht vertraut sind, gleiten leicht in eine Diskussionsrunde ab. 
+
+Sobald es keine weiteren Fragen mehr gibt, leiten Sie das eigentliche Pokern ein. Bitten Sie dazu alle Teilnehmer, ihren Cursor hinter dem Eintrag in die entsprechende Zelle in ihre persönliche Arbeitsspalte zu setzen und sich den Wert zu überlegen, den sie dieser Aufgabe zuweisen möchten.
+
+Fordern Sie die Teilnehmer dann auf, ihren Wert in der Tabelle einzugeben, ihre Eingabe *aber noch nicht mit Enter abzuschließen*. Solange noch nicht Enter gedrückt wird, sind die Werte vorerst nur für die jeweilige Person sichtbar, die sie eingegeben hat und noch für niemanden sonst.
+
+Sobald Sie den Eindruck haben, dass alle Teilnehmer so weit sind, bitten Sie noch einmal um eine kurze mündliche Bestätigung. Erst wenn alle ihr OK gegeben haben,zählen Sie auf drei. Bei drei sollen alle gleichzeitig die Entertaste betätigen, so dass jetzt alle bereits eingegebenen Werte gleichzeitig sichtbar werden. Beim allerersten Mal oder wenn jemand neu hinzu kommt, sollten Sie mit der Gruppe oder dieser Person das Pokern einmal kurz ausprobieren, damit wirklich jeder verstanden hat, wie es technisch funktioniert.
+
+  
+![Abbildung 11: Schätzpoker durchführen](images/Abb11_Schaetzpoker_mit_Eingaben_print.gif)
+
+  
+
+
+Dann, sobald die Ergebnisse sichtbar werden, sehen alle sofort, ob ein Konsens vorliegt, oder ob es unterschiedliche Einschätzungen gibt. Für die reine Gesprächsmoderation gelten jetzt die gleichen Regeln wie beim Schätzpokern im Real-Life. Das heißt, Sie als Moderator sollten jetzt die Personen mit den höchsten und den niedrigsten Werten bitten, diese kurz zu begründen, um dann gleich eine neue Schätzrunde durchführen zu lassen.
+
+  
+![Abbildung 12: Schätzpoker -- Ergebnisanzeige](images/Abb12_Schaetzpoker_Ergebnisse_print.gif)
+
+  
+In dem obigen Screenshot in Abbildung 12 sehen wir, dass die meisten Teilnehmer den Aufwand für die Tätigkeit „Shop / Webseite neu gestalten" mit dreizehn bis einundzwanzig Stunden eingeschätzt haben, eine Person hingegen nur fünf und eine andere vierundreißig angegeben haben. In der nun folgenden Gesprächsrunde werden diese beiden ihre Position begründen, danach wird neu gepokert.
+
+### 4.3.4 Listenpoker -- viele Schätzungen gleichzeitig abgeben
+
+Nicht immer muss in einem Projekt jeder einzelne Vorschlag oder jede Aufgabenstellung im Detail besprochen werden, manchmal genügt es, die „Hotspots" zu finden, bei denen die Bewertungen weit auseinander liegen, um sich dann mit den Beteiligten auf die Bearbeitung dieser wenigen „Hotspots" zu konzentrieren.
+
+Mit Hilfe einer kollaborativen Tabelle kann man diese Hotspots sehr leicht und sehr schnell identifizieren, indem man, statt wie beim Schätzpoker jeden Eintrag einzeln abzuarbeiten, die Teilnehmer bittet, ihre Schätzungen gleich für alle zur Bearbeitung anstehenden Einträge in einem Durchgang einzugeben, also ohne jedes Mal erst auf ein Kommando vom Moderator zu warten. Da alle Beteiligten in der kollaborativen Tabelle ihre Eingaben gleichzeitig tätigen können und jeder seine eigene Spalte benutzt, geht dies auch in Gruppenarbeit sehr schnell vonstatten.
+
+Sobald alle Teilnehmer mit ihren Eingaben fertig sind, kann man in der Tabelle anhand der unterschiedlichen Schätzwerte sehen, bei welchen Einträgen Konsens herrscht, wo es leichte und wo es deutliche Differenzen gibt.
+
+D> Wenn Ihre Gruppe mehr als zehn Aufgaben abschätzen muss, ist die Tabelle nicht ganz leicht zu lesen. Dies ändert sich jedoch sofort, wenn Sie ganz rechts noch drei gesonderte Ergebnisspalte anlegen und dort für jede Zeile den Minimal-, den Maximawert und die Differenz anzeigen.
+
+Auf diese Weise haben Sie einen sofortigen Überblick über die Ergebnisse. Außerdem können Sie die Tabelle nun auch nach den Ergebnissen sortieren, so dass beispielsweise alle Zeilen, in denen es große Differenzen gab, nun ganz oben stehen.
+
+Von hier aus können Sie als Sitzungsleiter den weiteren Verlauf ganz unterschiedlich moderieren, grundsätzlich bietet es sich natürlich an, die kritischen Themen wieder mit der Moderationstechnik des rundenbasierten Schätzpokerns zu bearbeiten.
+
+Die beiden Beispiele in diesem Kapitel zeigen zwei unterschiedliche Varianten der prinzipiell gleichen Vorgehensweise. In Abbildung 13 sollte ein Team von Softwareentwicklern für eine Reihe von vorgeschlagenen Funktionen und Verbesserungsideen seine Risikobewertungen abgeben. Hierzu haben alle gemeinsam die Tabelle bearbeitet und jeder Entwickler hat zu jedem Eintrag seine persönliche Bewertung eingetragen. Danach wurde die Liste nach der Ergebnisspalte (5) sortiert, so dass die Punkte, bei denen die Einschätzungen voneinander abwichen, ganz oben standen (Zeilen sechs, sieben und acht).
+
+  
+![Abbildung 13: Listenpoker zur Risikobewertung](images/Abb13_Listenpoker_Risikobewertung_print.gif)
+
+  
+Grundsätzlich ist das Vorgehen genauso wie beim Dot-Voting, nur müssen für die Auswertung andere Formeln eingetragen werden. Als Moderator sollten Sie diese auswendig können (siehe auch Kapitel 5.10 Diese Funktionen sollten Sie beherrschen), dann können Sie eine solche Tabelle auch live, vor den Augen der Teilnehmer, innerhalb von zwei Minuten anlegen. In einem echten virtuellen Meeting ist es übrigens nicht nötig, die Tabellen so schön mit Farben zu formatieren, wie ich dies hier im Buch der besseren Darstellung wegen für die Abbildungen getan habe. Im Alltag reicht die normale S/W-Darstellung völlig aus. 
+
+So gehen Sie als Moderator vor:
+
+  1. Als Erstes legen Sie rechts von den zur Bewertung anstehenden Alternativen (1) einen Eingabebereich für alle Teilnehmer an (3). 
+
+  2. Darüber oder darunter sollten Sie noch einmal gut sichtbar die Definition der Eingabewerte wiedergeben (2), damit schaffen Sie Klarheit für die Teilnehmer.
+
+  3. Rechts von dem Eingabebereich legen Sie nun zwei Spalten an (4). In der ersten Spalte ermitteln Sie mit Hilfe der Min-Formeln die niedrigste Riskobewertung, in der nächsten Spalte mit der Max-Formel die höchste. 
+
+  4. In der Ergebnisspalte können Sie dann auch ganz leicht durch Max minus Min die Differenz berechnen. Dann sehen Sie und alle anderen auf einen Blick, wo sich das Team einig ist und bei welchen Themen es deutlich unterschiedliche Bewertungen gibt.
+
+Hier in unserem Beispiel wurde die Tabelle auch wieder per Mausklick sortiert, so dass jetzt die Punkte ganz oben stehen, bei denen aufgrund unterschiedlicher Einschätzungen der meiste Gesprächsbedarf besteht.
+
+  
+![Abbildung 14: Listenpoker zur Aufwandsabschätzung](images/Abb14_Listenpoker_Aufwandsschaetzung_print.gif)
+
+  
+Ein anderes Anwendungsfeld, bei dem solche Listenbewertungen sehr hilfreich sind, ist die Projektplanung. Hier lassen sich mit dieser Methode sehr gut Aufwandsabschätzungen durchführen oder Prioritäten bestimmen. 
+
+Der Screenshot in Abbildung 14 zeigt einen Ausschnitt aus einem Softwareprojekt. Die Teilnehmer haben wieder mit Hilfe einer Fibonacci-Reihe abgeschätzt, wie viel Arbeitsaufwand für die Implementierung der verschiedenen Feature voraussichtlich benötigt wird.
+
+##  4.4 Das virtuelle Scrum Board
+
+Ein Scrum Board läßt sich in einer kollaborativen Tabelle natürlich sehr leicht aufbauen. 
+
+Der einzige wesentliche Unterschied zum Real-Life-Board ist, dass es beim virtuellen Board übersichtlicher ist, wenn man nicht die Userstories oder Tasks über das Board zieht, sondern in der „In Arbeit" Spalte einfach nur den Namen desjenigen einträgt, der gerade an dem Task arbeitet.
+
+  
+![Abbildung 15: Virtuelles Scrum Board](images/Abb15_ScrumBoard.gif)
+
+  
+Die folgende Abbildung zeigt eine ganz einfache Version. 
+
+Gerade auf dem Board sind die Möglichkeiten der Excel-Funktion „Bedingte Formatierung" sehr nützlich. So kann man z.B. die Done-Spalte so formatieren, dass sobald jemand dort einen Eintrag vor nimmt, die entsprechende Zelle grün eingefärbt wird. Auf diese Weise erhält man bereits eine einfache, aber sehr hilfreiche Visualisierung des Sprint-Fortschritts.
+
+Eventuell müssen Sie den einen oder anderen Mitarbeiter am Anfang dazu anhalten, nicht nur im Ticketsystem den Bearbeitungsstatus von Tasks zu ändern, sondern auch das Board aktuell zu halten. Das legt sich aber schnell, da das virtuelle Board gerade beim verteilten Arbeiten einen unschätzbaren Koordinationseffekt hat, auf den schon nach kurzer Zeit niemand verzichten möchte.
+
+  
+![Abbildung 16:Ein Kanban-Board in Excel](images/Abb16_Kanban-Board.gif)
+
+  
+Hier noch ein kleines Beispiel mit einem einfachen Kanban Board. 
+
+#  5. Virtuelle Meetings richtig moderieren
+
+Für die Leitung eines Online-Meetings gilt ebenso wie im Real-Life, dass die wichtigste Aufgabe des Moderators darin besteht, den Teilnehmern beim Erarbeiten ihrer eigenen Lösungen zu helfen und nicht -- oder nur sehr zurückhaltend -- an den Inhalten mitzuarbeiten. Durch die geeignete Auswahl der Gruppenarbeitstechniken sorgt er dafür, dass jeder zu Wort kommt, dass die Kommunikation in produktiven Bahnen verläuft und dass vor jedem neuen Schritt ein echtes Commitment zu den bisher erzielten Ergebnissen vorliegt. 
+
+In den bisherigen Kapiteln haben wir eine Reihe von Arbeitstechniken für die Ideenfindung, die Bewertung von Optionen und mehr kennengelernt. Zu jeder dieser Techniken gab es auch einige Hinweise zur Moderation derselben. 
+
+D> Da wir bisher mit kollaborativen Spreadsheets gearbeitet haben, nutze ich diese auch in diesem Kapitel zur Erläuterung der Moderationstechniken.
+
+Tatsächlich gelten die meisten der Hinweise zur Moderation von kollaborativen Meetings für jede Form virtueller Teamarbeit, unabhängig davon, ob Sie mit ihrem Team gerade ein kollaboratives Spreadsheet, ein Textdokument oder ein gemeinsames virtuelles Whiteboard verwenden.
+
+## 5.0 So bereiten Sie Ihr erstes Spread Scrum Meeting vor
+
+Wenn Sie und das Team ein paar Mal mit einer kollaborativen Tabelle gearbeitet haben, dann geht die Arbeit damit sehr flüssig von der Hand.
+
+Vor dem ersten Meeting sollten Sie sich aber sehr gründlich vorbereiten. Nehmen Sie sich hierfür einen Tag vorher ausreichend Zeit, um die Arbeitsumgebung in Ruhe aufzusetzen und zu testen. Sobald Sie Routine entwickelt haben und Ihnen die Abläufe völlig vertraut sind, sieht dies natürlich anders aus. Ich setze meine Spread Scrum Arbeitsblätter heute inzwischen tatsächlich erst kurz vor einem Meeting auf, da ich genau weiß, was ich benötige und wie ich vorgehen muss.
+
+**Das erste Meeting vorbereiten**
+
+Hier ist eine kleine Checkliste für die Vorbereitung des ersten Spread Scrum Meetings:
+
+  1. Legen Sie vorab alle Tabellen und Dokumente an, mit denen Sie während des Meetings arbeiten möchten. Denken Sie auch an eventuelle Uploads in das zentrale Verzeichnis.
+
+  2. Richten Sie danach alle notwendigen Zugriffsrechte ein. Normalerweise gibt es hier verschiedene Stufen. Die üblichen sind:
+
+  * Nur Sie alleine haben Zugriffsrecht
+
+  * Ausgewählte Andere dürfen lesen
+
+  * Ausgewählte Andere dürfen editieren
+
+  * Jeder, der den Link kennt, darf lesen
+
+  * Jeder, der den Link kennt, darf editieren
+
+Nehmen Sie sich Zeit, die Möglichkeiten, die ihnen ihre Plattform bietet, zu verstehen und die richtigen Berechtigungsarten zu setzen. Generell gilt, dass die beste Form der Berechtigung in einem echten Team einfach darin besteht, dass Sie allen Beteiligten volle Schreib- und Leserechte gewähren.
+
+* Was auch immer Sie für eine Freigabe gewählt haben: Testen Sie diese danach und zwar richtig. Legen Sie sich einen Zweit-Account an und senden Sie sich selbst für diesen Account den Zugriffs-Link zu. Dann loggen Sie sich ganz aus Ihrem Moderations-Account aus und rufen den Link von Ihrem Zweit-Account oder Test-Acccount so auf, wie es jeder andere Teilnehmer tun würde. 
+
+In aller Regel werden Sie beim ersten Mal feststellen, dass der Zugriff als Nicht-Moderator doch etwas anders aussieht -- und wenn es nur ein Extraklick ist, der notwendig ist, um vom Lesen in den Editier-Modus zu kommen, aber schon diese kleine Hürde reicht, um am Anfang für ein bisschen unerwünschte Verwirrung zu sorgen.
+
+## 5.1 Gleiche Arbeitsbedingungen für alle
+
+Mit etwas Übung und Moderationserfahrung werden Sie das Spread Scrum Meeting-Format wahrscheinlich auch dazu benutzen, Meetings mit Gruppen abzuhalten, die nur einmal oder nur gelegentlich zusammenkommen. In diesem Fall haben Sie natürlich keinen Einfluss auf die Technik, die die Teilnehmer verwenden und gegebenenfalls wird Ihr Spread Scrum Meeting einfach eine normale Telefonkonferenz mit ein bisschen Online-Unterstützung sein.
+
+Wenn Sie Ihr Spread Scrum Meeting aber mit einem verteilten Team durchführen, also einer Gruppe von Mitarbeitern, die kontinuierlich zusammen arbeiten und sich gegenseitig dabei unterstützen, ein gemeinsames Ziel zu erreichen, dann sollten Sie unbedingt folgende Punkte beachten:
+
+  * Alle Teilnehmer sollten über die gleichen Zugangsvoraussetzungen verfügen, ganz unabhängig von der Dauer der Zusammenarbeit und der Rolle im Team. Der Praktikant, der erst seit drei Wochen da ist und der freie Mitarbeiter, der nur für die Dauer des Projekts dabei ist, sollten über genauso gute Headsets und genauso große Monitore verfügen, wie jeder andere Mitarbeiter. 
+
+Wenn Sie als Teamleiter darauf nicht achten, setzen Sie damit ein klares Signal, dass nicht jeder Mitwirkende den gleichen Respekt verdient -- und diese Haltung wird sich dann auch im Kooperationsverhalten des gesamten Teams manifestieren, nicht nur in dieser einen Situation gegenüber dem vermeintlich unwichtigen Praktikanten.
+
+Umgekehrt ist es aber so, dass wenn Sie aktiv und für alle sichtbar dafür sorgen, dass jeder gut ausgestattet ist und dazugehört, dann setzen Sie damit ganz klar das Zeichen, dass jeder Mitarbeiter von Ihnen Wertgeschätzt wird und dass für Sie jeder Beitrag zählt.
+
+  * Verwenden Sie für die Kommunikation immer den kleinsten gemeinsamen Nenner: Vor allem in international verteilten Teams kommt es immer wieder vor, dass ein Mitarbeiter sich nicht gut verbal in einer Fremdsprache ausdrücken kann und deshalb nur chatten kann. In diesem Fall sollten alle chatten! Wenn Sie nämlich zulassen, dass eine Gruppe sich verbal abstimmt und andere Teammitglieder abgehängt werden, führt auch dies zu einer Kultur der Abgrenzung mit Mitarbeitern erster und zweiter Klasse.
+
+  * Lassen Sie keine Raummikrofone zu. Wenn mehrere Mitarbeiter an einem Standort ansässig sind und mehrere andere an anderen Standorten, dann kommt es oft dazu, dass die jeweiligen „Ortsgruppen" sich in einem Raum um ein zentrales Tischmikrofon versammeln. Damit ist erstens kein Spread Scrum Meeting möglich, da die Gruppe zwar gemeinsam ein Mikrofon nutzen kann, aber nicht eine Tastatur. Die Arbeit mit kollaborativen Tabellen gelingt aber nur, wenn wirklich jeder sich direkt beteiligen kann und nicht, wenn innerhalb einer Teilgruppe ein informeller Kampf um die Tastaturhoheit stattfindet. Des weiteren ist es so, dass es trotz aller Beteuerungen der Hersteller keine Raummikrofone gibt, die die gleiche Aufnahmequalität aufweisen wie ein Headset -- und schlechte Akustik bedeutet eben auch schlechtere Kommunikation. 
+
+Zu guter Letzt verführt das Gruppensetup mit einem Raummikrofon diejenigen, die es nutzen, dazu, sich während des Meetings doch flüsternd zu unterhalten und sich informell, abgesondert von den anderen, untereinander abzustimmen -- auch dies unterläuft sofort den gemeinsamen Arbeitsprozess und teilt ihre Gesamtgruppe in „die hier" und „die Anderen dort" auf.
+
+##  5.2 Den virtuellen Arbeitsraum einrichten
+
+Wenn Sie mit einem festen Team arbeiten, dann ist es natürlich sinnvoll, nicht nur eine kollaborative Tabelle aufzusetzen, sondern gleich auch einen ständigen, virtuellen Arbeitsraum einzurichten.
+
+  
+![Abbildung 17: Drei Standard-Dateien, die Sie in jedem virtuellen Teamraum anlegen sollten](images/Abb17_Standard-Dateien_print.gif)
+
+  
+Die grundlegenden Elemente, die Sie dabei anlegen sollten, sind: 
+
+  * Eine fest benannte kollaborative Tabelle als ständiger „Team-Treffpunkt" für ihre Spread Scrum Meetings. Nennen Sie diese Tabelle ruhig „Team-Arbeitsmappe", „Teamspace" oder so ähnlich, dann ist gleich klar, was gemeint ist.
+
+  * Eine Text-Datei, die Sie „Whiteboard Text" nennen
+
+  * und eine Datei „Whiteboard für Zeichnungen". Genau wie ein echtes Whiteboard haben diese Dateien keinen vordefinierten Inhalt, sondern dienen dazu, jederzeit spontan benutzbar zu sein. 
+
+Wie hilfreich solche vorbereiteten Whiteboard-Dateien sind, werden Sie merken, sobald Sie in einem Spread Scrum Meeting zum ersten Mal einen Ablauf oder einen komplexeren Zusammenhang visualisieren müssen. Wenn Sie keine Datei vorbereitet haben, müssen Sie diese während dem Meeting anlegen, die Freigaben einrichten, einen Link herumsenden etc. Haben Sie eine bereits vorbereitete Arbeitsdatei, genügt es, wenn Sie ansagen, „Wir treffen uns gleich alle im Whiteboard Zeichnungen." Alle Teilnehmer werden wissen, was gemeint ist, sich dort einfinden und wenige Augenblicke später arbeitsbereit sein.
+
+Denken Sie beim Anlegen eines virtuellen Teamraums auch immer sofort an die notwendige Datensicherung. Sie wollen sicher nicht den Tag erleben, an dem alle Aufgabenlisten und Projektpläne Ihres Teams verschwunden sind. Zumal die Datensicherung bei allen kollaborativen Systemen sehr einfach und kostengünstig eingerichtet werden kann. Wenn Sie eine externe Cloud bei einem Anbieter wie Microsoft oder Google nutzen, können Sie das Backup für einen geringen Betrag buchen, bei einer intern gehosteten Lösung genügt wahrscheinlich ein Anruf bei ihrem Administrator.
+
+## 5.3 Die drei S für virtuelle Meetings:   
+Schreiben, schreiben, schreiben
+
+Der große Vorteil der kollaborativen Tabellen besteht darin, dass jeder Teilnehmer in Echtzeit alle anderen Beiträge sieht. Natürlich kann oder muss man nicht jede einzelne Äußerung verschriftlichen, aber wenn Sie erst einmal damit begonnen haben, die Tabellen als gemeinsamen Arbeitsraum zu nutzen, werden Sie schnell feststellen, dass die Verschriftlichung genau wie bei der Arbeit mit echten Flipcharts oder Moderationstafeln die Grundlage dafür ist, dass man Themen strukturiert bearbeiten kann. Anders als bei einem Flipchart können Sie online aber jederzeit neue Arbeitsblätter anlegen und nach Gebrauch wieder löschen. Es ist also jederzeit möglich, mit der Gruppe für eine kleine Nebendiskussion auf ein neues Arbeitsblatt zu springen -- danach können alle mit einem Klick zum eigentlichen Hauptarbeitsblatt zurückkehren um dort weiterzuarbeiten.
+
+##  5.4 Die Teilnehmer in Aktion halten
+
+Da es beim Spread Scrum Meeting darum geht, dass ein verteiltes Team möglichst gut *zusammenarbeitet*, müssen Sie als Moderator dafür sorgen, dass sich alle Teilnehmer auch wirklich an der gemeinsamen Arbeit beteiligen. Das heißt, Sie bereiten zwar die Arbeitsmappen vor, aber die Teilnehmer sind diejenigen, die diesen mit Inhalten füllen müssen -- und zwar nicht, indem sie ihre Beiträge verbal äußern und jemand anderes diese dann notiert, sondern indem jeder seine Beiträge immer auch selbst einträgt. 
+
+Wenn Sie beispielsweise die Teilnehmer um Ideen bitten, dann verbinden Sie dies gleich mit der konkreten Aufforderung, dass jeder seine Vorschläge in die Tabelle schreibt. Keinesfalls dürfen Sie, wie dies beispielsweise bei einem Brainstorming im Real Life der Fall wäre, die Rolle des Protokollanten übernehmen, bei der die Teilnehmer ihre Vorschläge äußern, der Moderator diese aber an das Flipchart schreibt. Lassen Sie auch nicht zu, dass jemand anderer diese Rolle übernimmt, weil er oder sie angeblich schneller tippen kann oder was auch immer. 
+
+Wenn Sie es als Moderator zulassen, dass die Teilnehmer sich zurücklehnen, wird die Qualität und Intensität der Beiträge sofort abfallen. Wenn Sie andererseits dafür sorgen, dass die Teilnehmer laufend selbst neue Beiträge verfassen, redigieren oder aktualisieren müssen, dann verhindern Sie damit auf ganz natürliche Weise, dass jemand sich auf die Rolle des unbeteiligten Zuschauers zurückziehen kann.
+
+Wenn Sie öfters an Webinaren teilnehmen, habe Sie vielleicht schon bemerkt, wie viele Teilnehmer dort bereits nach wenigen Minuten dem Vortrag nur noch mit halbem Ohr folgen. Bei einem Spread Scrum Meeting ergibt es sich hingegen ganz von alleine, dass die Teilnehmer konzentriert bei der Sache sind -- vorausgesetzt, Sie als Moderator halten die produktive Arbeitsatmosphäre aufrecht. Dann können Sie Spread Scrum Meetings problemlos auch über mehrere Tage hinweg durchführen. Ich kenne aus meiner eigenen Praxis Teams, die dreitägige Projektplanungsmeetings vollständig online machen!
+
+##  5.5 Visuelle Orientierung geben
+
+Sowohl im Real Life als auch im virtuellen Raum basiert gute Gruppenarbeit -- ohne dass uns dies wirklich bewusst wäre -- auf dem Aufstellen und Weiterbearbeiten von Listen: Ideenlisten, Aufgabenlisten, Kundenlisten und vieles mehr. Auch eine Tagesordnung für eine Besprechung ist nichts anderes als eine logisch sortierte Themenliste.
+
+Im Real Life kann man die Arbeit mit diesen Listen nur sehr eingeschränkt mit visuellen Signalen noch weiter strukturieren, beispielsweise indem man als Moderator am Flipchart manche Einträge farblich markiert.
+
+  
+![Abbildung 18: Über die farbliche Hervorhebung sieht jeder Teilnehmer sofort, welcher Punkt gerade besprochen wird](images/Abb18_Farbliche_Hervorhebung_print.gif)
+
+  
+Bei der Arbeit mit kollaborativen Tabellen haben Sie hingegen mehrere Möglichkeiten, die Teilnehmer durch visuelle Signale zu unterstützen. Eine Maßnahme, die von Spread Scrum Meeting-Teilnehmern immer wieder als sehr hilfreich beschrieben wird, ist, wenn der Moderator die Zeile oder Spalte, die gerade bearbeitet werden soll, durch eine Änderung der Hintergrundfarbe deutlich hervorhebt. Dies trägt stark dazu bei, dass sich die Teilnehmer in der Tabelle besser orientieren und damit auf die eigentlichen Inhalte konzentrieren können, statt durch „Wo sind wir denn jetzt gerade?"-Fragen abgelenkt zu sein. 
+
+## 5.6 Feedback gibt Sicherheit
+
+Obwohl Sie in einem virtuellen Meeting keinen Blickkontakt mit den Teilnehmern haben, werden Sie in aller Regel die Stimmung im Team ganz gut mitbekommen. Trotzdem sollten Sie es sich angewöhnen, regelmäßig eine explizite Rückmeldung von Ihren Teilnehmern einzuholen. Auf diese Weise sichern Sie alle Teilergebnisse ab und können auch für sich selbst kontrollieren, ob Ihre Moderation so gelingt, wie Sie sich das vorstellen. Da es bei dieser Rückmeldung nur um einen kurzen Status-Check geht und nicht um eine Wiederholung der Inhalte, reicht es völlig aus, wenn Sie dieses Feedback verbal einholen. Im Grunde gehen Sie dabei genauso vor, wie in einem Workshop im Real Life: Fassen Sie das gerade erzielte Ergebnis zusammen, kündigen Sie den daraus folgenden, nächsten Arbeitsschritt an und bitten Sie dann um eine kurze Rückmeldung von allen, ob jeder damit einverstanden ist. Selbst bei zehn Teilnehmern dauert das Einholen dieser Rückmeldung nur eine halbe bis eine Minute.
+
+Wenn Sie die Teilnehmer drei-, viermal gebeten haben, ihre Rückmeldung in der Reihenfolge der Namensliste in der Check-In-Zone abzugeben, werden diese das Prinzip bereits verinnerlicht haben, einfach weil es für alle offensichtlich ist, dass man sich damit eine Vielzahl unnötiger Abstimmungen erspart wie beispielsweise, wer als Erster spricht, wer als Nächster dran ist, ob jeder schon etwas gesagt hat und so weiter.
+
+## 5.7 Schweigen nicht als Zustimmung gelten lassen
+
+Früher oder später werden Sie erleben, dass auf eine an die gesamte Gruppe gerichtete Frage nur ein oder zwei Personen antworten und auf ihre Bitte hin, dass die anderen sich auch äußern mögen, wird jemand den Satz sagen „Schweigen gilt als Zustimmung, lassen Sie uns weiter machen". 
+
+Lassen Sie dies auf keinen Fall durch gehen! In einer Real-Life-Diskussion können Sie tatsächlich leicht per Blickkontakt überprüfen, wie die Stimmung im Raum ist und ob die übrigen Teilnehmer ihre Zustimmung non-verbal signalisieren. Online kann sich hinter dem Schweigen eines oder mehrerer Teilnehmer aber jederzeit auch Unsicherheit, Ärger oder sogar vollständige Ablehnung verstecken. Solange geschwiegen wird, haben Sie keine Chance, dies mit zu bekommen, wohingegen Sie schon bei der kleinsten verbalen Äußerung an der Tonlage, an einem Zögern oder an einer besonders diplomatisch gewundenen Formulierung sofort hören, was wirklich Sache ist und dann auch direkt darauf reagieren können.
+
+## 5.8 Eigene Aktionen kommentieren
+
+Als Moderator muss man häufig spontan auf den Diskussionsverlauf reagieren, beispielsweise indem man ein neues Arbeitsblatt für die Bearbeitung einer besonders kniffeligen Fragestellung anlegt oder in dem man eine Abstimmung durchführt, um ein erstes Meinungsbild zu erhalten und Ähnliches.
+
+Prinzipiell gilt dabei, dass Sie, wenn Sie ein Arbeitsblatt ändern möchten oder müssen, auf dem das Team in genau diesem Moment arbeitet, dann sollten Sie jede Änderung und jede Überarbeitung vorher ankündigen -- und die Durchführung dann auch live kommentieren. Das kann sich zum Beispiel so anhören: „Ich lege einmal ein paar Spalten an, damit wir eine Listenbewertung machen können." Danach sollten Sie (fast) jeden Mausklick, den Sie durchführen, auch verbal kommentieren, etwa wie ein Radiokommentator bei einem Fußballspiel. Alle Teilnehmer von Spread Scrum Meeting Seminaren berichten immer wieder, dass diese Live-Kommentierung für sie ganz wichtig ist, um sich mitgenommen zu fühlen. Anders herum führt es bei den übrigen Teilnehmern zu großer Verunsicherung, wenn der Moderator anfängt, die Arbeitsumgebung des Teams umzubauen, ohne dass die Beteiligten erfahren, warum er dies tut.
+
+Gehen Sie dabei bei Ihrer Kommentierung ruhig in die Details. Die Erfahrung zeigt, dass es nicht reicht, wenn Sie ankündigen, dass Sie „gerade mal schnell die Spalten für die Abstimmung anlegen". Vielmehr sollten Sie wirklich fast jede Aktion kommentieren, beispielsweise so: „Ich lege erst einmal die Spalten an, so. So, da haben wir sie. Jetzt hier oben die Namenskürzel rein. Ok, und jetzt lasst mich noch schnell die Summenformel einbauen, dann sind wir so weit."
+
+Auf diese Weise halten Sie die Zuschauer wirklich im Geschehen und können, sobald Sie mit ihren Änderungen fertig sind, sofort mit dem Team weiter arbeiten, ohne dass Sie „geflüchtete" Teilnehmer erst wieder aus ihrem Email-Programm oder von Facebook zurückholen müssen.
+
+## 5.9 Die Kontrolle behalten
+
+Die Spread Scrum Meeting-Techniken funktionieren vor allem deshalb so gut, weil die Beteiligten gleichberechtigt und in Echtzeit auf die Arbeitsblätter zugreifen, Einträge anlegen oder editieren können.
+
+Damit die Zusammenarbeit aber dauerhaft funktioniert, ist es sehr wichtig, dass der Sitzungsleiter oder Moderator den Ablauf bewusst steuert. Dazu gehört auch, dass niemand außer Ihnen ein Arbeitsblatt eigenmächtig ändern sollte. In fast jedem Team werden Sie früher oder später auf jemanden treffen, der sich berufen fühlt, Ihnen zur Seite zu springen oder den es einfach ins Rampenlicht drängt und der dann damit anfängt, schnell einmal hier eine Spalte zusätzlich einzufügen oder die Tabelle ungefragt umzusortieren. 
+
+Solche Interventionen sollten Sie sofort unterbinden. Einerseits aus grundsätzlichen Erwägungen heraus, da es nicht angeht, dass in einer Gruppenarbeit jemand eigenmächtig damit beginnt, das von allen gemeinsam genutzte Arbeitsmaterial zu ändern. Des weiteren laufen Sie hier aber auch sofort Gefahr, dass sich derjenige als selbsternannter Hilfsmoderator oder informeller Stellvertreter positioniert und damit die Rollenverteilung zwischen Ihnen als Moderator und den Teilnehmern verwischt wird. Ohne eine klare Führungsrolle werden die Spread Scrum Meetings aber schnell an Struktur und damit an Produktivität verlieren.
+
+## 5.10 Diese Funktionen sollten Sie beherrschen
+
+Die Moderation eines Spread Scrum Meetings benötigt keine besonderen technischen Kenntnisse. Im Grund genügt es, wenn Sie folgende wenige Funktionen sicher beherrschen:
+
+  * Hintergrundfarbe ändern:  
+Eine oder mehrere Zellen, Spalten oder Zeilen farbig hervorheben, um den Teilnehmern eine visuelle Orientierung zu geben.
+
+  * Für die Auswertung von Listen genügen drei Formeln:
+
+  * Die S**ummenformel** benötigen Sie beim Dot-Voting.
+
+  * Mit **Zählenwenn** (bei MS) oder **Countif** (bei Google) können Sie auszählen, wie oft ein Buchstabe oder eine Zeichenkette vorkommen. Dies benötigen Sie bei allen Gelegenheiten, bei denen ein Status oder eine Abschätzung mittels Texteingabe festgehalten wurde. Dies können beispielsweise ein „OK" im Aufgabenstatus sein oder die Verwendung von „Hoch", „Mittel", „Niedrig" bei Risikobewertungen etc.
+
+  * Mit **Min und Max** ermitteln Sie die niedrigsten und die höchsten Einträge in einem Bereich. Vor allem beim Listenpoker benötigen Sie diese Funktionen.
+
+Natürlich gibt es noch mehr hilfreiche Funktionen und Arbeitstechniken, vom richtigen Umkopieren, bei dem man Formen in feste Werte umwandelt, bis hin zum Zehn-Finger-Schreibsystem. Aber mit solchen Feinheiten können Sie sich später beschäftigen, für den Einstieg in die Spread Scrum Meeting-Technik kommt man mit den drei oben genannten Funktionen schon sehr weit.
+
+#  6. Virtuelle Scrum Meetings durchführen
+
+Das, was wir in der Softwareentwicklung als Scrum kennen, sind eigentlich bekannte Führungskonzepte aus dem Gebiet der sogenannten Hochleistungsteams. So wurde beispielsweise schon vor dreissig Jahren in Führungsseminaren vermittelt, wie wichtig es ist, dass ein Team selbst für seine Arbeitsplanung zuständig ist, dafür seine Ziele kennen muss und fortlaufend Feedback über Erfolg und Misserfolg erhält, um eigenständig Korrekturen vornehmen zu können. 
+
+Nur, wie man diese theoretische Anforderung in einer Arbeitsumgebung wie der Softwareentwicklung umsetzen kann, das war lange Zeit nich klar. In einer Fabrikhalle sehen alle Kollegen, wer an was arbeitet. Fertige Teile und Ausschuss stapeln sich deutlich sichtbar und Stockungen oder Abstimmungsprobleme machen sich sofort auf unterschiedlichste Weise bemerkbar. Ausgerechnet in der Softwareentwicklung hingegen, da, wo sich fast jede Tätigkeit eines Einzelnen auf die Arbeit aller anderen auswirken kann, ist der Arbeitsprozess praktisch unsichtbar. Außer, dass alle Beteiligten vor einem Monitor sitzen, ist selbst für direkte Tischnachbarn kaum nachvollziehbar, wer an was arbeitet und was er genau tut.
+
+Der große Durchbruch der agilen Methoden liegt also weniger auf der konzeptionellen Ebene, sondern vielmehr darin, dass einfache Werkzeuge und konkrete Arbeitsmethoden gefunden wurden, mit denen es gelungen ist, die vorher in der klassischen Industrie entwickelten Konzepte auf die Softwareentwicklung zu übertragen. Das Board macht den bisher unsichtbaren, isolierten Produktionsprozess sichtbar, Schätzpoker und Burn Down Charts sorgen für die quantitative Messbarkeit und Erfolgskontrolle, Daily Standups brechen Informationssilos auf und so weiter.
+
+Beim Übergang vom standortfesten Scrum zu verteilten Teams stehen wir wieder vor der gleichen Aufgabenstellung. Wir wissen zwar, was wir benötigen, was den meisten Teams aber fehlt, sind konkrete, alltagstaugliche Lösungen. 
+
+Im vorherigen Teil habe ich alle *Arbeitstechniken* gezeigt, die man für die Durchführung strukturierter, virtueller Meetings benötigt. In diesem Abschnitt geht es nun darum, wie man die verschiedenen *Scrum Meeting-Formate* wie das Daily Standup, die Planungsmeetings und die Retrospektive so durchführt, dass sie auch mit verteilten Teams funktionieren
+
+In den folgenden Abschnitten beschreibe ich, welche Vorgehensweisen sich bei uns im Team im Laufe der Zeit herauskristallisiert haben. Wie immer bei Fragen der Führung und der Unternehmensorganisation gilt natürlich auch hier, dass diese Lösungen nur einen Startpunkt darstellen. Auf Dauer muss und wird jedes Team für sich angepasste Vorgehensweisen entwickeln.
+
+  
+
+
+**Das Medium bestimmt auch das Format**
+
+Wie sehr ein Medium das Format und den Ablauf eines Meetings bestimmt, kann man leicht nachvollziehen, wenn man eine Live-Diskussionsrunde im Radio mit der einer Live-Diskussion im Fernsehen vergleicht. In beiden Fällen scheint das Setting ähnlich zu sein: Die Teilnehmer treffen sich in einem Studio, jeder hat ein Mikrofon vor sich und ein Moderator leitet das Gespräch. Aber allein, dass in einem Fall eine Kamera mitläuft und einen zusätzlichen visuellen Kanal beisteuert, verändert das Verhalten der Teilnehmer und die Moderationstechnik grundlegend. 
+
+Im Radio muss der Moderator wesentlich mehr „Übersetzungsarbeit" für die Zuhörer leisten, da diese nicht sehen, was im Studio vor sich geht. Oft macht er das Geschehen akustisch „sichtbar, in dem er dieses verbalisiert, beispielsweise so: „Ich sehe Frau Sowieso schüttelt den Kopf. Frau Sowieso, Möchten Sie zu diesem Punkt etwas sagen?"
+
+Auf der anderen Seite haben der Moderator und die Teilnehmer im Radio auch mehr Freiheitsgrade, da es Musikpausen gibt, die die Radiohörer auch akzeptieren oder die Teilnehmer können ihre Mikrofone stumm schalten, ohne dass dies jemand bemerkt.
+
+##  6.0 Die Teammappe-- das zentrale Tool für virtuelle Scrum Teams
+
+Bevor wir in die Beschreibung des Daily Standup einsteigen, zeige ich Ihnen hier den Teamspace. Die Teammappe ist eigentlich nur ein Spreadsheet, das in seiner einfachsten Variante mit drei Arbeitsblättern aus kommt. 
+
+Die drei Seiten, die Sie und ihr Scrum-Team ständig benötigen werden, sind:
+
+  * die Startseite für das Daily Check In
+
+  * das Board mit den Userstories, Task und den üblichen sonstigen Informationen
+
+  * ein Whiteboard als Arbeitsfläche für spontane Besprechungen
+
+Die meisten Teams erweitern den Teamspace relativ schnell um weitere Tabellen, aber diese drei reichen vollkommen aus, um ein verteiltes Team zu organisieren und arbeitsfähig zu machen.
+
+Da eines davon das virtuelle Scrum-Board ist, ist es in der Regel so, dass die Teammitglieder diese Datei ständig offen halten. Genau wie beim physischen Board sieht auch hier jeder sofort auf einen Blick, wer gerade an was arbeitet und wie die gemeinsame Arbeit voran kommt. Das heißt, genau wie im Real Life unterstützt ein solch einfaches Board in Form einer Tabelle die osmotische Kommunikation, selbst über die Entfernung hinweg.
+
+## 6.1 Daily Standup
+
+Natürlich stehen im Daily Standup eines verteilten Scrum Teams die gleichen drei Fragen im Mittelpunkt, wie bei einem standortfesten Team: Was habe ich gestern gemacht, was möchte ich heute machen und gibt es etwas, das mich behindert?
+
+Im verteilten Team haben wir aber eine Reihe von zusätzlichen Problemen und Herausforderungen, die gelöst werden müssen, damit es auch über die Entfernung hinweg zu einer echten Zusammenarbeit kommt:
+
+  * Das Team ist vom Flurfunk mit anderen Abteilungen abgeschnitten. Die Mitarbeiter treffen keinen Product Owner, keinen Abteilungsleiter, keine Kollegen aus dem Vertrieb oder dem Support -- weder an der Kaffeemaschine noch beim Mittagessen oder im Fahrstuhl.
+
+  * Das Team steht nicht vor einem physischen Board, es gibt keine Karten, die die Teilnehmer in der Hand halten oder auf die sie zeigen können. Das heißt, die visuellen Signale fehlen.
+
+  * Bei stationären Teams werden der Burn Down Chart, Bug-Statistiken und andere Performance-Daten meist so veröffentlicht, dass man an ihnen praktisch nicht vorbei kommt und sie jeder im Laufe des Tages mehr oder weniger automatisch anschauen **muss**. Dies wird meist dadurch erreicht, dass es einen Aushang oder einen Monitor mit Dashboard gibt und dies im Flur, am Board oder an der Kaffeemaschine positioniert wird. Bei verteilten Teams fehlt solch eine ins Auge springende Publikationsmöglichkeit.
+
+  * Der fehlende Blickkontakt verhindert, dass die Sprecherreihenfolge während dem Daily Standup klar ist. Bei drei, vier Teilnehmern ist dies auch in einem virtuellen Team kein Problem, bei zehn Teilnehmern jedoch schon.
+
+  * Der fehlende Blickkontakt verhindert auch, dass Off-Topic-Wortmeldungen oder Wortmeldungen außer der Reihe so erfolgen können, dass sie nicht stören. In einem standortfesten Team kann ein Teilnehmer, der noch ein wichtiges Anliegen hat, den passenden Moment abwarten und dann beispielsweise die Hand heben und einen Schritt nach vorne treten. Im virtuellen Meeting ist dieses abpassen des richtigen Augenblicks deutlich schwieriger.
+
+Alle diese Probleme lassen sich aber glücklicherweise durch eine geschickte Kombination von moderiertem Format und Spread Meeting-Techniken lösen.
+
+Im folgenden beschreibe ich das Format, das ich im Laufe der Jahre mit verschiedenen Teams entwickelt und verfeinert hat und das sich sehr gut bewährt hat.
+
+### 6.1.1 Das brauchen Sie für ein virtuelles Daily Check In
+
+Für das Daily Check In benötigen Sie:
+
+  * Die Teammappe in Form eines kollaborativen Spreadsheets, so wie Eingangs beschrieben.
+
+  * den Sprach-Chat ihrer Wahl, also Skype oder Lync oder ähnliches.
+
+Achten Sie bereits vom ersten Tag an darauf, dass wirklich alle Mitarbeiter eine vernünftige Arbeitsumgebung haben.
+
+Sollten sich mehrere Mitarbeiter an einem gemeinsamen Standort befinden, achten Sie unbedingt darauf, dass auch dort sich jeder von seinem eigenen Rechner aus einloggt und mit eigenem Headset arbeitet. Lassen Sie nicht zu, dass die Gruppe an diesem Standort anfängt, während dem Meeting eine parallele Kommunikationsebene aufzubauen, von der die übrigen, standortfernen Kollegen ausgeschlossen sind.
+
+### 6.1.2 Das Morgengebet
+
+Das normale Daily Check In beinhaltet bei den meisten standortfesten Teams tatsächlich nur die drei Standardfragen. Die Teammitglieder versammeln sich zur vereinbarten Uhrzeit und dann legen alle reihum los.
+
+Bei einem verteilten Team ist der Informationsbedarf aber wesentlich höher, da, wie Eingangs beschrieben, ein großer Teil der informellen Kommunikation fehlt.
+
+Ich habe deshalb mit meinem Team sehr früh ein Praxis entwickelt, die wir etwas ironisch Morgengebet genannt haben. Der Name verweist vor allem auf den rituellen Ablauf des Ganzen.
+
+Wer das Morgengebet leitet, ist nicht so wichtig, es kann der Teamleiter, der Scrum Master oder jemand aus dem Team sein. Da derjenige aber in dieser Phase des virtuellen Daily Standup mehrere Minuten lang wie ein Radiomoderator agieren und am Stück sprechen muss, sollte dies nach Möglichkeit jemand sein, der über seine Stimme die übrigen Zuhörer mitnehmen kann.
+
+Wie üblich ist es Aufgabe des Scrum Masters und der Teamleitung, für die entsprechende Pünktlichkeitskultur zu sorgen und dafür, dass das pünktliche Erscheinen auch bereits die Arbeitsfähigkeit beinhaltet und das Team nicht erst darauf warten muss, bis auch die Letzten ihre Mikrofone konfiguriert und ihre Notebooks hochgefahren haben.
+
+Das Morgengebet beginnt damit, dass alle Teilnehmer das Arbeitsblatt 01_Start öffnen und ihre Cursor in der Check-in-Zone setzen. Sobald alle Anwesend sind, beginnt das Meeting. 
+
+Wie Sie auf dem Screenshot in Abbildung 19 sehen können, gibt es vier Hauptbestandteile:
+
+  1. Orientierung in der Zeit:  
+Wochentag, Datum, abgeschlossene Tage, noch verfügbare Tage. 
+
+  2. Status des Sprints:  
+Burndown, Bugs, sonstige Kennzahlen
+
+  3. Besondere Termine  
+über die das Team informiert sein sollte.
+
+  4. Abwesenheiten  
+Urlaube, Schulungen, krankheitsbedingte Ausfälle etc.
+
+Diese vier sind eigentlich Standard. Je nach Aufgabenstellung des Teams lohnt es sich eventuell, noch einen fünften Punkt hinzu zunehmen, der 
+
+  1.   
+![Abbildung 19: Die Startseite mit den Inhalten für das Morgengebet](images/Abb19_Daily.gif)
+
+  
+Bericht vom Markt, Bericht vom Abteilungsleiter  
+oder so ähnlich lauten kann. 
+
+Wie Ihnen bestimmt gleich aufgefallen ist, handelt es sich bei allen Punkten bis jetzt um einen festen Satz von standardisierten Informationen. . In den meisten Fällen handelt es dabei sich sogar um Informationen, die jeder im Team sowieso weiß oder nachschauen kann. Am deutlichsten wird dies gleich am Anfang, bei dem Datum. Natürlich braucht zumindest theotisch niemand eine Ansage von Datum und Wochentag -- schließlich hat jeder auf seinem eigenen Bildschirm irgendwo in der Ecke eine Zeit- und Datumsanzeige.
+
+Wie so oft bei agilen Methoden geht es hier aber nicht einfach um die rein technische Übermittlung von Informationen, sondern um Aufbereitung von Information auf solch eine Art und Weise, dass sie von den Beteiligten aufgenommen und verarbeitet wird. Sie werden sich wundern, wie oft Sie, wenn Sie das Daily Check In so durchführen, wie ich es hier vorschlage, eine Bemerkung der Art hören werden: „Wie, heute ist schon Donnerstag? ich dachte wir haben noch ein paar Tage Zeit...".
+
+Das Morgengebets verändert den Charakter des Daily Standup vollkommen, vor allem, wenn Sie Daten wirklich wie ein Nachrichtensprecher im Radio durchgehen. Das heißt, wenn Sie die feste Abfolge, eine bestimmte Betonung und sogar die immer gleiche Wortwahl einhalten.
+
+Mein persönliche Standardeinleitung hört sich so an:
+
+„Guten Morgen. Willkommen zu unserem Daily Check In. Wir haben heute Dienstag, den 23. März. Wir sind im Sprint Nr. 15. Wir haben bereits sechs Tage hinter uns und noch vier Tage -- einschließlich heute -- vor uns."
+
+In diesem Stil geht es weiter. Verwenden Sie ruhig immer genau das gleiche Wording, die gleiche Tonlage und tragen Sie die Informationen jeden Tag so vor, als wäre es das erste Mal. Fangen Sie nicht nach ein paar Tagen an, zu nuscheln oder Abkürzungen zu nehmen oder Witze über das eigene Ritual zu machen. Am Anfang wird ihnen oder dem Team dieser stark standardisierte Ablauf vielleicht merkwürdig vor kommen, aber spätestens in der zweiten Woche werden Sie merken, welche Kraft in diesem ritualisierten Start steckt, wenn er den richtig gemacht wird.
+
+Denken sie immer daran: Sie haben beim Morgengebet genau die gleich Rolle wie ein Nachrichtensprecher im Radio. Achten Sie einmal darauf: Auch diese verwenden für die Nachrichten nicht nur täglich, sondern sogar stündlich immer das gleiche Wording und die gleiche Struktur: Begrüßung -- Datum -- Uhrzeit -- Nachrichten Inland -- Nachrichten Ausland -- Sport -- Wetter -- Verkehrslage. Das Entwickeln und Einhalten *eines festen Schemas erleichtert es den Zuhörern ungemein, sich auf die Inhalte zu konzentrieren*.
+
+In ähnlicher Weise gehen Sie dann durch die übrigen Punkte durch. Nach der Einleitung können Sie direkt mit den Kennzahlen weitermachen. Nennen Sie einfach die Velocity und eventuelle noch ein oder zwei andere Kennzahlen, die für ihr Team wichtig sind. Achten Sie dabei aber -- falls Sie Teamleiter sind -- peinlichst darauf, dass Sie die Information neutral darstellen. Ihre Mitarbeiter hören sehr genau, ob Sie dem Team wirklich vertrauen oder ob Sie durch die Art, wie Sie die Informationen betonen, vielleicht doch geneigt sind, (schädlichen) Druck aufzubauen. Wenn ihnen das nicht gelingt, dann sollten Sie das Morgengebet und die Moderation des Daily Check In doch lieber dem Scrum Master oder einer anderen Person überlassen.
+
+Nach den Kennzahlen kommen die Informationen über anstehende Termine, über die das Team informiert sein muss und über Abwesenheiten. Nach meiner Erfahrung hat sich hier ein Zeitfenster von etwa zehn Tagen voraus bewährt. Nur Termine, die in diesem Fenster liegen, sollten benannt werden. Alles, was darüber hinaus geht, hat für den Alltag im hier und heute in der Regel noch keine Bedeutung.
+
+Bei den ganz kurz bevorstehenden Terminen und Abwesenheiten, also bei denen, die in den nächsten ein bis zwei Tagen anstehen, lohnt es sich, die Konsequenzen noch einmal deutlich zu verbalisieren. Damit meine ich folgendes: Ergänzen Sie die reine Information „Peter ist ab Donnerstag für zwei Tage auf einer Schulung" klar und deutlich darum, was dies für das Team bedeutet: „Das heißt, wenn ihr etwas von Peter braucht, dann ist heute, Mittwoch, die letzte Gelegenheit dazu. Ansonsten könnt ihr Peter erst nächste Woche wieder erreichen."
+
+Ich habe zu Anfangs als möglichen weiteren Punkt den „Bericht vom Markt" genannt. Bei den meisten verteilten Entwicklerteams ist es so, dass diese relativ wenig eigenen Kundenkontakt haben. Es gibt aber kaum etwas, was Entwickler so sehr interessiert, wie Rückmeldungen darüber, was ihre Arbeit bewirkt (das gilt natürlich auch für jeden anderen Mitarbeiter).
+
+Deshalb ist es meist hilfreich, wenn im Rahmen des Daily Standup auch hierzu noch Informationen geliefert werden. Je nach Organisation und Produkt kann dieser Input beispielsweise vom Product Owner, von einem Sales Mitarbeiter oder dem Abteilungsleiter kommen. Wie auch immer, verteilte Teams sind in der Regel sehr an Marktfeedback interessiert. Auf welchen Messen wird das Produkt vorgestellt, welche Neukunden hat man gewonnen, welche Rückmeldungen gab es auf das letzte Release etc.. Diese Informationen als tägliche kleine Rückmeldung liefern sehr viel an Kontext und können sehr motivierend wirken.
+
+### 6.1.3 Das eigentliche Daily Check-In, die Runde mit den drei Fragen
+
+Sobald Sie mit dem Morgengebet durch sind, bitten Sie das Team, auf das zweite Arbeitsblatt mit dem Board zu wechseln. Warten Sie wieder, bis alle ihre Cursor in der Check-in-Zone gesetzt haben und starten Sie dann das eigentliche Daily.
+
+Bei der Arbeit mit einem verteilten Team müssen Sie während dem virtuellen Check-In drei Punkte beachten:
+
+  1. Sie benötigen verschiedene Mechanismen ür die Festlegung der Sprecherreihenfolge.
+
+  2. Achten Sie drauf, dass der jeweilige Sprecher seine Tasks / Stories deutlich mit Zeilennummer benennt.
+
+  3. Heben Sie als Moderator / Scrum Master die jeweils besprochenen Tasks oder Stories zeitgleich zum Gesprächsverlauf farblich hervor.
+
+#####  Die Sprecherreihenfolge festlegen
+
+Im normalen Standup melden sich die meisten Teilnehmer einfach reihum zu Wort. Die Sprecherreihenfolge ergibt sich so meist einfach daraus, wer wo steht.
+
+Im virtuellen Meeting kann man dies einfach dadurch ersetzen, dass dieTeilnehmer in der Reihenfolge sprechen, in der ihre Namen in der Check-In-Zone aufgeführt sind. Das Problem dabei ist, dass diese Anordnung in aller Regel einem festen Schema folgt, was wiederum dazu führt, dass die Sprecherreihenfolge sich überhaupt nicht verändert. Ändern Sie diese deshalb ruhig alle zwei, drei Wochen ab. Das einfachste ist, die Reihenfolge einfach umzudrehen, also von hinten nach vorne zu gehen. Alternativ können Sie die Liste auch einmal nach Vornamen und einmal nach Nachnamen oder nach Alter oder ganz zufällig anordnen. Sie werden merken, das solch eine kleine „Störung" die Meetings durchaus wieder etwas belebt und den Aufmerksamkeitspegel noch einmal steigert.
+
+#####  Zu jedem Tasks / Userstories die Zeile deutlich benennen
+
+Im normalen Standup gehört es in vielen Teams zu den Good Practices, dass die Teilnehmer die Karten der Tasks in der Hand halten, an denen Sie gearbeitet haben oder das sie, während sie über einen Task sprechen, auf dem Board auf die jeweilige Karte zeigen.
+
+Im virtuellen Meeting fehlt bei der Kommunikation über Skype diese zusätzliche Information. 
+
+Damit die Zuhörer im virtuellen Check-In trotzdem schnell den entsprechenden Eintrag sehen können, ist es wichtig, dass Sie zusätzlich zu den obligatorischen drei Fragen eine weitere Regel einführen: **Jeder Sprecher muss am Anfang ganz klar die Ticketnummer und die Zeilennummer nennen, in der der Task oder die User Story stehen, über die er gleich sprechen wird.**
+
+Sätze wie „Ich arbeite heute weiter an dem neuen Suchfeld" sind im virtuellen Meeting nicht erlaubt. Statt dessen muss es lauten: „Ich arbeite weiter an Task 3726 in Zeile 14, dem Anlegen eines neuen Suchfelds".
+
+Es wird ein paar Tage dauern, bis sich alle Teilnehmer an diese präzisere Form der Wortmeldung gewöhnt haben, aber meistens werden die übrigen Zuhörer diese Zusatzinformation nach einer Weile von selbst einfordern, sobald sie vergessen wird, einfach, weil sie es allen leichter macht, den jeweiligen Statusberichten zu folgen.
+
+#####  Tasks und User Stories parallel zum Meeting visuell hervorheben
+
+Die Information über die Zeilennummer, in der die User Story oder der Task stehen, über die der Entwickler gerade spricht, können Sie als Moderator oder Scrum Master auch selbst aktiv nutzen, um das Daily Check In noch einmal deutlich zu verbessern. Wenn Sie diese Information haben, können sie nämlich parallel zu den Wortmeldungen der Entwickler die Zeile mit der User Story oder dem Task, über den gerade gesprochen wird, farblich hervorheben.
+
+Dies erleichtert es gerade bei langen Sprint Backlogs den übrigen Zuhörern noch einmal deutlich, den entsprechenden Eintrag auf einen Blick zu finden und sich selbst weitere Zusatzinformationen anzuschauen. Anders als in dem einfachen Beispiel, das ich hier für die Illustrationen verwendet habe, verwenden viele Teams nämlich noch weitere Felder, in denen Zusatzinformationen wie etwa die Abhängigkeit von anderen Tasks oder Notizen oder anderes hinterlegt sind.
+
+Alles, was Sie dafür tun müssen, um die jeweils besprochen Zeile hervor zu haben, ist, diese mit einem Mausklick als Zeile auszuwählen und zu markieren und dann per Klick z.B. orange oder gelb einzufärben. Sobald der Sprecher mit dem Thema fertig ist, genügt dann ein schnelles Ctrl-Z, um den vorherigen Zustand wieder her zu stellen. In Abbildung 18 sehen Sie einen Screenshot mit einem Beispiel für dieses Vorgehen..
+
+## 6.2 Review Meeting 
+
+Für das virtuelle Review Meeting, bei dem dem Product Owner der aktuelle Stand vorgeführt und die User Stories abgenommen werden, benötigen Sie drei Werkzeuge:
+
+  * Ihren Standard-Sprach-Chat wie Skype etc.
+
+  * Ein kollaboratives Spreadsheet, in dem alle Beteiligten Notizen anlegen können. Hier bietet sich das „Whiteboard" in der Datei „Teamspace" an. 
+
+  * Eine Screen-Sharing-Lösung, mit der der Präsentator das Fenster, in dem er das aktuelle Release dem PO vorführt, an alle Beteiligten live überträgt. Hier ist die Auswahl an möglichen Tools riesig, eine der gängigsten Lösungen dürfte Teamviewer sein.
+
+### 6.2.1 Setup und Durchführung
+
+Das Setup für das Review Meeting ist sehr simpel. Wählen Sie einen Mitarbeiter aus dem Team aus, der die Software vorführt und über den Teamviwer an alle anderen Teilnehmer streamt.
+
+Die kollaborative Tabelle benötigen Sie eigentlich nur für Notizen. Der Vorteil der kollaborativen Tabelle ist wie üblich deren Funktion als virtuelles Flipchart oder Whiteboard. Was immer Sie als Teamleiter oder jemand anderer notiert, ist erstens für alle sichtbar und steht zweitens hinterher sofort als Mitschrift zur Verfügung. 
+
+Tip: Wenn Sie der Scrum Master sind, dann bietet es sich an, dass Sie neben dem Vorbereiten des Setups und dem Überwachen der Timebox auch gleich die Mitschrift übernehmen. Dann können die Entwickler sich voll und ganz auf das Gespräch mit dem Product Owner konzentrieren.
+
+## 6.3 Retrospektive
+
+Der Kern jeder Retrospektive ist die Bearbeitung der Frage „Wie können wir besser werden?". Insofern gibt es hier keine scrum-spezifischen Vorgehensweisen zu beachten. Alles, was Sie benötigen, sind die Arbeitstechniken aus dem Teamwriting, wie in Kapitel 4.1 beschrieben. Danach können Sie ein Dot-Voting durchführen, die ausgewählten Verbesserungsinitiativen noch einmal kurz auf die Umsetzbarkeit hin diskutieren und das war es dann schon.
+
+Tip: Wenn Sie für die Retrospektive ein dauerhaftes Arbeitsblatt in ihrem Teamspace-Dokument anlegen, dann haben Sie jedesmal auch die Beschlüsse der letzten Male vor Augen. Wenn Sie dann noch die erfolgreich durchführten Verbesserungs-Aktivitäten visuell markieren, dann wird dem Team im Laufe der Zeit auch bewusst, was schon alles erreicht wurde und das es sich lohnt, Retrospektiven durchzuführen (immer vorausgesetzt, Sie als Scrum Master oder Teamleiter tragen auch dazu bei, dass das Team auch wirklich die Zeit und die Ressourcen bekommt, um seineVerbesserungsideen auch wirklich in die Tat umzusetzen).
+
+## 6.4 Planungsmeeting I
+
+Im Planungsmeeting I wählt das Team die Stories aus, die es im kommenden Sprint abarbeiten möchte. Manchmal geht dies innerhalb von Minuten, manchmal ergibt sich aber auch noch ein intensiver Dialog mit dem Product Owner.
+
+Für das Planungsmeeting I sollte der Scrum Master vor dem Meeting zwei Dokumente vorbereiten:
+
+  1. eine Tabelle 
+
+  2. ein Textdokument
+
+#####  User Stories für den Sprint auswählen über die Tabelle
+
+Um mit dem Team die User Stories für den kommenden Sprint auszuwählen, kopieren Sie einfach das Backlog aus dem Ticketsystem -- oder wo auch immer der Product Owner sein Backlog pflegt -- in ein Tabellenarbeitsblatt. 
+
+In den allermeisten Fällen reicht es, wenn Sie das Team und den Product Owner im Voice Chat frei besprechen lassen, was in den Sprint kommen soll. Die Stories, die das Team auswählt, können Sie dabei auf vielfältige Weise markieren. Ich persönlich bevorzuge immer ein extra Spalte, in der ich dann die jeweiligen Einträge vornehme. Über diese Zusatzspalte kann ich die Tabelle dann jederzeit per Knopfdruck sortieren, so dass beispielsweise alle markierten Einträge oben oder unten in der Liste erscheinen, je nachdem, was das Team gerade benötigt.
+
+#####  User Stories bearbeiten im Text-Dokument
+
+Oft gibt es im Planungsmeeting I zu der einen oder anderen User Story noch einmal einen intensiven Austausch mit dem Product Owner.
+
+Für diesen Fall lohnt es sich, wenn Sie ein kollaboratives Textdokument vorbereitet haben, in das Sie jederzeit den Text der User Story aus dem Ticketsystem sowie eventuelle dazugehörende Informationen und/oder Notizen hineinkopieren können.
+
+Die Vorbereitung beinhaltet einfach nur folgende Schritte:
+
+  1. *Legen Sie* *bereits* *vor dem Meeting ein* *Textd**okument* an, dass das Team bei Bedarf für die Überarbeitung von User Stories nutzen kann.  
+Falls Sie in ihrem Teamspace bereits ein Dokument „Whiteboard Text" angelegt haben, können Sie auch einfach dieses verwenden (Siehe Kapitel 10.1), ansonsten legen Sie einfach ein neues an.
+
+  2. *Legen Sie in diesem Dokument eine Check-In-Zone mit den Namen aller Teilne**h**mer an*, damit Sie auch in diesem Dokument einen Teamraum-Effekt erzeugen können (siehe Kapitel 4.0).
+
+  3. Kontrollieren Sie, *dass alle Teammitglieder auch tatsächlich Zugriff haben werden*, kopieren Sie sich gegebenenfalls den Link zum Dokument, so dass Sie ihn bei Bedarf sofort im Chat oder über denm Teamspace an die anderen Teilnehmer weiter geben können.
+
+Während dem Gespräch mit dem Product Owner kann das Team jetzt hier jederzeit den Text überarbeiten oder aktualisieren, so dass gleich ein gemeinsames, von allen verstandenes Dokument entsteht.
+
+Als Scrum Master können Sie das Team hier massiv unterstützen, in dem Sie beispielsweise bei sich das Ticketsystem geöffnet halten und das Umkopieren der Inhalte übernehmen. 
+
+Tip: Vor dem ersten Meeting sollten Sie dieses Umkopieren unbedingt erst ausprobieren. Ich habe dabei schon die erstaunlichsten Probleme erlebt. Ein relativ häufig anzutreffendes Problem ist, dass man gar nicht direkt kopieren kann, sondern die Inhalte aus dem Ticketsystem erst lokal speichern muss, um es dann erst aus einer lokal geöffneten Textverarbeitung in das kollaborative Dokument hineinkopieren zu können.
+
+## 6.5 Planungsmeeting II
+
+Das Planungsmeeting II ist das dynamischste Format im Scrum Framework. Je nach Team, Aufgabenstellung oder User Story benötigt man unter Umständen sehr unterschiedliche Werkzeuge und Arbeitstechniken.
+
+Diese drei Werkzeuge gehören zum Standard und sie sollten alle drei vor dem Meeting bereits so vorbereiten, dass sie sofort einsetzbar sind. Natürlich reden wir wie immer von kollaborativen Dokumenten:
+
+  1. ein Textdokument
+
+  2. eine Tabelle
+
+  3. ein Zeichenprogramm
+
+#####  Das Textdokument
+
+Das Textdokument sollen Sie „just in case" vorhalten. Genau wie im Planungsmeeting I ist es gut, wenn Sie auch für den Taskbreakdown und die Sprintplanung ein Textdokument als Arbeitsraum vorhalten. Im Grunde können Sie hier natürlich einfach das gleiche Textdokument verwenden, dass Sie bereits für das Planungsmeeting I verwendet haben.
+
+#####  Einfache Tasksbreakdowns per Voice Chat und Mitschrift
+
+Die einfachste Variante für einen Taskbreakdown geht so, dass das Team einfach im Voice-Chat diskutiert, wie es eine User Story umsetzen möchte und der Scrum Master parallel dazu einfach auf einem für alle sichtbaren Arbeitsblatt mitschreibt. Am Ende der Diskussion gehen Sie die Mitschrift noch einmal gemeinsam durch, nehmen gegebenenfalls die eine oder andere Korrektur vor und fertig.
+
+#####  Teamwriting für anspruchsvolle User Stories
+
+Bei komplexen Userstories bietet sich unter Umständen die in Kapitel 4.1 beschriebene Teamwriting-Methode an. Mit einem Teamwriting sammeln Sie sehr schnell eine Vielzahl von Vorschlägen. Diese können Sie anschließend einfach im Voice Chat besprechen oder sie unterziehen die Vorschläge bei Bedarf noch unterschiedliche Bewertungsverfahren, so wie im Kapitel 4.3 beschrieben. Dies können Risiko-Analysen sein oder Aufwandschätzungen oder simple Priorisierungen im Dot-Voting-Verfahren.
+
+#####  Das Zeichenprogramm 
+
+Meines Erachtens kann man kaum überschätzen, wie viel es bringt, wenn man auch kleine Abläufe oder Zusammenhänge kurz visualisiert.
+
+Für den Taskbreakdown lohnt es sich häufig, wenn es ein gemeinsames Zeichenbrett gibt, auf dem das Team auch einmal kurz eine Prozess, ein Datenbankschema oder was auch immer aufzeichnen kann.
+
+Sowohl die Microsoft Office 360 Web Edition als auch Google Apps enthalten ein kollaboratives Zeichenprogramm. Ob diese den Anforderungen ihres Teams genügt, müssen Sie selbst ausprobieren. Unter Umständen lohnt sich hier auch eine Zusatzlösung wie www.Realtimeboard.com.
+
+#  7. Die passende Tabellen-Software auswählen
+
+## 7.0 Anbieter kollaborativer Tabellensoftware
+
+Es gibt zum Zeitpunkt der Veröffentlichung der Ausgabe dieses Buches über ein Dutzend Anbieter von kollaborativen Tabellen. Am bekanntesten sind derzeit Google Tabellen, Microsoft Office 365 und Zoho Sheets. Eine kurze Suche nach „online spreadsheet" oder „collaborative spreadsheet" wird Ihnen aber schnell noch weitere Alternativen liefern. 
+
+Was immer Sie verwenden, entscheidend ist vor allem die Echtzeit-Funktionalität beim gemeinsamen Bearbeiten der Online-Dokumente. Dazu gehört, dass die Cursor aller Meetingteilnehmer für jeden sichtbar sind und jede Änderung sofort wirksam wird, ohne dass die Teilnehmer erst ein Refresh durchführen müssen.
+
+Um Ihnen die Wahl der für Sie geeigneten Anwendung etwas zu erleichtern, habe ich hier die wichtigsten Kriterien für die Auswahl einer passenden Plattform zusammengestellt.
+
+## 7.1 Die risikolose Sortierung aller Spalten
+
+Wenn Sie eine Tabelle nach den Werten in einer Spalte sortieren, sollten alle anderen Spalten automatisch mitsortiert werden, ohne dass Sie vorher erst einen bestimmten Tabellenbereich auswählen müssen. Das Umsortieren von Tabellen ist die vielleicht am meisten genutzte Funktion überhaupt, da beispielsweise gerade Aufgabenlisten ganz typisch aus mehreren Spalten bestehen und Sie diese einmal nach Priorität sortieren möchten, dann wieder nach Verantwortlichen oder nach Fertigstellungsdatum etc. Wenn beim Umsortieren nach einer dieser Spalten der Rest der Tabelle nicht automatisch mitgenommen wird, dann werden Sie oder ein anderer Benutzer ihre Tabelle sehr schnell und gründlich unbrauchbar machen.
+
+## 7.2 Wiederherstellung / History-Funktion
+
+Manche Systeme wie beispielsweise die Google Tabellen bieten eine History-Funktion, das heißt, man kann jederzeit alle früheren Änderungen nachvollziehen und jeden früheren Zustand abrufen und wieder herstellen. Diese Funktion trägt deutlich dazu bei, dass die Benutzer aktiv und unbefangen mitarbeiten. Ohne eine History-Funktion besteht sonst immer die Möglichkeit, dass jemand aus Versehen die Arbeitsdatei des gesamten Teams ruiniert.
+
+## 7.3 Leichte Zugriffsmöglichkeit
+
+Bei Lösungen, die über das Internet zugänglich sind, ist es sehr leicht, auch externen Partnern oder temporären Mitarbeitern einen Zugang einzurichten. Ein Klick genügt, um beispielsweise einen Kollegen aus einer anderen Abteilung dazuzuholen. Wenn Sie sich für eine selbst gehostete Intranet-Lösung entscheiden, müssen Sie damit rechnen, dass externe Partner entweder keine Zugangsmöglichkeit haben, oder diese nur umständlich per VPN eingerichtet werden kann. Je nachdem wie restriktiv ihre IT-Systeme konfiguriert sind, kann der Zugang sogar für Kollegen erschwert sein, die sich gerade auf Reisen befinden und nicht direkt im Firmennetzwerk arbeiten.
+
+## 7.4 Datensicherheit: Cloud oder selbst-gehostete Lösung
+
+Sollten Sie besonderen Wert auf Vertraulichkeit legen, können Sie bei vielen Anbietern spezielle Enterprise-Zugänge buchen. Für diese gelten höhere Sicherheitsbestimmungen und sie erfüllen besondere Compliance-Anforderungen. Sollte dies nicht ausreichen, müssen Sie auf eine intern gehostete Lösung zurückgreifen, was natürlich einen höheren Wartungaufwand mit sich bringt.
+
+## 7.5 Die Performance des Servers
+
+Die cloudbasieren Lösungen werden auf großen Rechnerfarmen gehostet und sind dementsprechend performant. Bei einer intern betriebenen Lösung sollten Sie unbedingt vorab testen, ob das Netzwerk und die Server auch zu Spitzenzeiten noch ausreichend performant sind und ob auch das kollaborative Arbeiten mit mehren Teilnehmern noch flüssig funktioniert. Alle Meetings, nicht nur Spread Scrum Meetings, bei denen die Technik hakt und ständig Störungen auftreten, werden wesentlich weniger gut angenommen und sind deutlich unproduktiver.
+
+## 7.6 Externe Backup-Möglichkeit
+
+Egal ob Server-Crash oder versehentliches Löschen durch die Benutzer -- Sie werden auf jeden Fall ein externes Backup benötigen. Bei einer selbst gehosteten Lösung ist dies kein Problem, bei einer cloudbasierten Lösung müssen Sie hier gegebenenfalls einen Zusatzdienst buchen.
+
+## 7.7 Zugang über Tablets und Smartphones
+
+Gerade für vielreisende Teammitglieder kann es ein enormer Vorteil sein, wenn sie auch per Tablet auf die Team-Tabellen oder den virtuellen Arbeitsraum insgesamt zugreifen können. Was hier möglich ist, hängt sowohl vom verwendeten Betriebssystem ab, also ob Android, Windows oder iOS verwendet wird, als auch von der verwendeten Hardware. Allerdings ist die Entwicklung bei den Tablet-Anwendungen zum Zeitpunkt des Erscheinens dieses Buches so im Fluss, dass man dieses Kriterium vielleicht nicht überbewerten sollte.
+
+# 8. Messenger für die osmotische Kommunikation
+
+In der Organisationspsychologie ist es ein gut untersuchtes Phänomen, dass in normalen Büros die zufälligen und unscheinbaren Begegnungen sehr wichtig sind für den Erfolg eines Teams. Bei der Planung von Büroflächen werden deshalb schon lange informelle Treffpunkte wie eine gemeinsame Teeküche oder Gemeinschaftsdrucker eingeplant. In einem verteilten Team fehlen diese räumlichen Begegnungspunkte. Darüber hinaus sieht man in einem Büro, wer anwesend ist, geht gemeinsam in die Pause und oft auch zusammen essen.
+
+Dadurch, dass sich in einem verteilten Team die Mitarbeiter nicht sehen, sehen sie auch nicht, ob jemand gerade telefoniert, konzentriert arbeitet oder Pause macht. Damit entfällt für einen Mitarbeiter, der ein Gespräch mit einem Kollegen sucht, auch die Möglichkeit, einen günstigen Moment abzupassen. Statt dessen muss jede Kommunikation erst einmal auf gut Glück initiiert werden, auf die Gefahr hin, den anderen zu stören oder abgewiesen zu werden.
+
+In der Summe führt in einem verteilten Team der Wegfall dieser fehlenden informellen Begegnungen dazu, dass die Mitglieder eines verteilten Teams wesentlich weniger voneinander wissen, als es bei stationären Teams der Fall ist.
+
+Die erste und wichtigste Maßnahme, dem entgegenzuwirken, besteht darin, einen Gruppen-Chat für das Team aufzusetzen, das heißt, einen Chat-Raum, in dem alle Nachrichten, auch die, die nur zwei Teilnehmer miteinander austauschen, immer für alle Team-Mitglieder lesbar sind. Wenn ich dies in Unternehmen vorschlage, höre ich oft erst einmal: „Wozu, das stört doch nur." Tatsächlich ist es aber so, dass auf diese Weise ganz informell und ohne Aufwand sehr viel an scheinbar nebensächlichen Informationen übertragen werden, die dann ganz wesentlich dafür sind, dass alle Beteiligten besser aufeinander eingehen können. In neuen Teams muss man als Teamleiter die Mitarbeiter manchmal sogar erst dazu anzuhalten, den Gruppen-Kanal zu benutzen, statt auf einen Privat-Chat auszuweichen. In diesem Fall genügt aber eine einfache Regel: Jeder Mitarbeiter soll mindestens drei Nachrichten am Tag absetzen, und wenn es nur die morgendliche Begrüßung, das Abmelden in die Mittagspause und das abendliche „Tschüss" sind. In der Praxis werden sich daraus dann von ganz alleine Unterhaltungen über die laufende Arbeit ergeben.
+
+*Alle in diesem Buch vorgestellten Methoden zur Organisation eines verteilten Teams können Sie fast genauso gut anwenden, wenn Sie nur die textbasierte Chat-Funktion des Messengers nutzen.* Nicht dass ich freiwillig auf eine Sprachverbindung verzichten würde, aber es geht auch ohne! Dies ist gerade in international verteilten Teams sehr wichtig, weil es Nicht-Muttersprachlern in der Regel wesentlich leichter fällt, sich schriftlich auszudrücken, als ein Telefonat zu führen, beziehungsweise an einem Audio-Chat teilzunehmen.
+
+Interessanterweise ist die zweite Funktion, auf die man völlig verzichten kann, der Video-Chat. Videobilder lenken immer von der eigentlichen Arbeitsumgebung ab, ohne gleichzeitig einen echten Mehrwert zu bieten. Weder kann man während der Gruppenarbeit alle Beteiligten im Blick behalten noch funktioniert die nonverbale Kommunikation auch nur im Ansatz so gut wie in einem Real-Life-Meeting. Alle Teams, die ich bisher bei der Einführung der der Spread Scrum Meeting-Methode begleitet habe, haben den Video-Chat schon nach dem ersten Spread Scrum Meeting von sich aus endgültig abgeschaltet.
+
+## 8.0 Das passende Messenger-System auswählen
+
+Die Auswahl an Messenger-Systemen ist relativ groß. Auf den ersten Blick ähneln sich alle, für unsere Zwecke ist jedoch nicht jeder Messenger geeignet. Im Folgenden finden Sie einige Kriterien, die Sie für die Auswahl des für Sie passenden Systems heranziehen können.
+
+### 8.0.1 Die Awareness-Anzeige
+
+In Messenger-Systemen werden dem Benutzer alle seine Kontakte in einem kleinen Fenster als Liste angezeigt. Die Awareness-Anzeige zeigt über einen kleinen grünen Punkt neben dem eigenen Namen den anderen an, dass man aktiv, anwesend und erreichbar ist. Wenn man den Computer für eine gewisse Zeit, meist fünf oder zehn Minuten, nicht mehr bedient, springt die Anzeige auf orange und signalisiert den anderen „Computer ist an, bin aber nicht am Platz". Prinzipiell gibt es auch Messenger-Systeme ohne Awareness-Anzeige, diese sind im Alltag aber deutlich weniger komfortabel nutzbar.
+
+### 8.0.2 Chat-Protokolle
+
+Manche Messenger speichern ihre Gesprächsprotokolle nur auf dem Gerät, auf der der Anwender zum Zeitpunkt des Chats angemeldet war. Andere hingegen speichern die Protokolle zentral. Dies hat den Vorteil, dass Sie diese nachträglich jederzeit wieder abrufen können, egal von welchem Computer.
+
+Welche Variante besser ist, ist hier schwer zu sagen. Manchmal ist es sehr praktisch, wenn man die alten Gesprächsprotokolle noch einmal nach irgendeiner wichtigen Detailinformation durchsuchen kann. 
+
+Andererseits kann die Speicherfunktion Team-Mitglieder, die in ihrem Sozialverhalten eher robust gestrickt sind, dazu verführen, diese alten Protokolle bei Meinungsverschiedenheiten als Waffe zu verwenden. Da werden dann alte Mitschriften herausgesucht und dem anderen entgegen gehalten: „Vor drei Wochen hast du aber noch gesagt das...". Solch ein Verhalten ist leider eine sehr sichere Methode, die Kommunikation im Chat und damit den offenen Informations- und Meinungsaustausch im Team massiv zu beschädigen. In solchen Fällen ist es notwendig, dass der Teamleiter sofort einschreitet und gegenüber allen Mitarbeitern klar stellt, dass das Archiv nur als Hilfe genutzt werden darf. Tut der Teamleiter / Scrum Master dies nicht, können Sie sicher sein, dass die Kommunikation im Chat schnell leiden und die Leistung des Teams beeinträchtigt werden wird.
+
+### 8.0.3 Teilnehmerzahl in Konferenzgesprächen
+
+Viele Messenger begrenzen die Zahl der maximal möglichen Gesprächsteilnehmer in Konferenzgesprächen. Bei Google Talk sind derzeit maximal zehn Personen zugelassen, bei Skype hingegen können derzeit bis zu 25 Personen gleichzeitig miteinander sprechen, was für die meisten Zwecke wohl ausreichen dürfte. 
+
+### 8.0.4 Einwahlmöglichkeiten per Telefon
+
+Gerade bei verteilten Teams ist die Teilnahme am sogenannten Daily-Check-In, der morgendlichen Tagesbesprechung, sehr wichtig, da hier ein großer Teil aller relevanten Informationen ausgetauscht wird. Je nachdem, was für ein verteiltes Team Sie führen, kann es mehr oder weniger häufig vorkommen, dass jemand zum Zeitpunkt der Tagesbesprechung keinen oder nur einen sehr eingeschränkten Online-Zugang hat. In diesen Fällen ist es sehr nützlich, wenn es eine Möglichkeit gibt, sich auch über eine normale Telefonverbindung in das Meeting einzuwählen. Bei Skype können Sie zum Beispiel gegen eine geringe Gebühr eine sogenannte Dial-in-Number buchen. Allerdings kann sich dabei je Nummer immer nur eine Person einwählen. Wenn also mehrere Personen gleichzeitig eine solche Dial-in-Option benötigen, dann ist eventuell doch gleich wieder die klassische Telefonkonferenz das Mittel der Wahl für Ihr Team.
+
+#  9. Weitere Tools, die Sie sich unbedingt anschauen sollten
+
+#####  Kolloborative Editoren und IDEs
+
+Gab es bis vor ein paar Jahren nur einige wenige kollaborative Editoren, so ist das Angebot inzwischen regelrecht explodiert. Es gibt inzwischen für die unterschiedlichsten Programmiersprachen und Einsatzgebiete verschiedene Editoren und sogar IDEs. 
+
+Eine aktuelle Google-Suche liefert hier mehrere dutzend Angebote. Am Besten, Sie lassen ihre Teammitglieder selbst testen und aussuchen.
+
+#####  Kollaborative Diagramm-Editoren
+
+[https://mural.ly/tour](https://mural.ly/tour)
+
+realtimeboard.com
+
+padlet.com
+
+#  10. Tips für die ersten Schritte
+
+In meinen Trainings erleben die Teilnehmer am Morgen erst einmal selbst, wie es ist, als Neuling an ein Spread Scrum Meeting heran geführt zu werden. Am Nachmittag besprechen wir dann in der Gruppe, wie alle Beteiligten den Einstig erlebt haben und worauf sie bei ihrem ersten Spread Scrum Meeting in ihrem eigenen Team achten müssen. Eine schriftliche Einführung kann diese Erfahrung hier nicht ersetzen, aber zumindest die wichtigsten Punkte kann ich hier in Form kurzer Checklisten wieder geben.
+
+## 10.0 Checkliste Technik
+
+  1. Richten Sie intern eine kollaborative Plattform ein oder nutzen Sie einen Account bei einem externen Anbieter.
+
+  2. Beschaffen Sie Headsets für alle Mitarbeiter -- die billigsten aus dem Online-Versand sind in aller Regel schon ausreichend.
+
+  3. Führen Sie mit Ihrem Team einen rein technischen Testlauf (kein Spread Scrum Meeting) der kollaborativen Plattform durch. Das heißt, probieren Sie, ob jeder auf die Tabellen zugreifen kann und ob jeder darin editieren kann.
+
+  4. Testen Sie die Audioverbindung mit allen Teilnehmern. Sie werden überrascht sein, wie viele Probleme hier auftreten. Die gängigsten sind, dass Mitarbeiter ihr Headset verlegt, verliehen, vergessen haben und meinen, das Note‑book‑mikrofon ginge doch auch (nein, geht nicht); dass jemand nicht weiß, wie man Skype konfiguriert oder dass sich plötzlich herausstellt, dass jemand sein Büro mit Anderen teilt und nicht frei sprechen kann. Diesen Testlauf müssen Sie wirklich vier bis fünf Arbeitstage vor dem ersten Spread Scrum Meeting durchführen, damit Sie beispielsweise noch Zeit haben, Ersatzheadsets zu bestellen oder andere Maßnahmen zu ergreifen.
+
+## 10.1 Die Teamdokumente einrichten
+
+  1. Jedes verteilte Team sollte ein gemeinsames Verzeichnis haben. Dort legen Sie vorab drei Dateien an:
+
+  * das zentrale Tabellenblatt für die künftigen Spread Scrum Meetings. Geben Sie dieser Datei einen sprechenden Namen, beispielsweise „Team-Mappe" oder ähnliches.
+
+  * eine Datei mit Namen „Whiteboard Text".
+
+  * eine Datei mit Namen „Whiteboard für Zeichnungen".
+
+  1. Legen Sie in der Teamraum-Datei VOR dem Meeting *auf jedem* Arbeitsblatt eine Check-In-Zone mit den Namen der Teilnehmer an
+
+  2. Legen Sie in der Teamraum-Datei ein Arbeitsblatt mit der Bezeichnung „Whiteboard" an. Auf diese Weise haben Sie immer gleich eine leere „Flipchart-Seite" zur Hand, zu der Sie die Teilnehmer bei Bedarf hinlotsen können.
+
+  3. Fangen Sie mit einfachen Spread Scrum Meetings an, die sicher funktionieren -- überfordern Sie weder sich noch Ihre Teilnehmer. Planen Sie den Ablauf gut und bereiten Sie gegebenenfalls auch die notwendigen Tabellen und Arbeitsblätter vor.
+
+## 10.2 Neue Teilnehmer an die Hand nehmen
+
+Viele Menschen kennen heutzutage Online-Anwendungen wie Microsoft One oder Google Spreadsheets, sind sich aber nicht bewusst, dass es sich dabei um kollaborative Plattformen handelt und haben auch noch nie mit mehreren Personen auf einer Datei gearbeitet. Deshalb sollten Sie den technischen Probelauf, bei dem Sie mit Ihrem Team den Zugriff auf die Plattform und die Audio-Verbindung testen, auch gleich dazu nutzen, ihre Mitarbeiter mit der neuen Arbeitsumgebung vertraut zu machen.
+
+  1. Erläutern Sie die Check-In-Zone: Wozu ist sie da, wie wird sie benutzt.
+
+  2. Wo werden die Reiter der Arbeitsblätter angezeigt und wie navigiert man von einem Arbeitsblatt zum nächsten.
+
+  3. Probieren Sie mit allen zusammen das gemeinsame, gleichzeitige Editieren aus. Lassen Sie alle zugleich „Hallo" oder „Test" schreiben.
+
+  4. Erläutern Sie dann die Rückgängig-Funktion über Ctrl-Z und lassen Sie reihum alle einmal ausprobieren, wie diese funktioniert. Die Teilnehmer sollen selbst erfahren (und nicht nur beim Moderator sehen), dass Ctrl-Z sich immer nur auf die eigenen Aktionen auswirkt, nie auf die Aktionen anderer Teilnehmer.
+
+# 11. Spread Meeting Hintergrund und Fallbeispiel
+
+## 11.0 Die Ursprünge der Spread Scrum Meeting-Methode
+
+Ende der Nuller-Jahre leitete ich ein international verteiltes Entwicklungsteam im Softwarebereich. Die Aufgabe war dabei so anspruchsvoll, dass die einzige Möglichkeit, das dafür notwendige Expertenteam zusammenzustellen, darin bestand, ein international verteiltes Team aufzubauen. Am Ende hatten wir das Produktmanagement in Deutschland, Entwickler in der Ukraine und in Indonesien, eine Gruppe von Testern in Weißrussland und für einige Sonderaufgaben gab es zeitweilig noch Mitarbeiter aus Großbritannien und Israel.
+
+Von Beginn an war ein Chat-Programm mit einem eigenen Chat-Raum für unser Team unser wichtigstes Kommunikationsmittel. Für den kleinen Informationsaustausch zwischendurch war dies ideal. Alle Teammitglieder waren durch die Kommunikation im gemeinsamen Chat-Raum immer darüber auf dem Laufenden, wer sich gerade womit beschäftigte, zugleich war der Informationsfluss informell, unkompliziert und unaufdringlich. Für Teambesprechungen, in denen wir gemeinsam komplexe Probleme analysieren und Lösungswege diskutieren wollten, war der Chat aber völlig ungeeignet. Da in einem Chat alle Beiträge in einer einzigen Liste erscheinen, konnten wir schon nach wenigen Minuten nicht mehr nachvollziehen, welcher neue Beitrag sich auf welchen früheren Beitrag bezog. Eine strukturierte Kommunikation war so nicht möglich.
+
+Aufgrund der extremen geographischen Verteilung unseres Teams kam es aber nicht einmal als Notlösung in Frage, dass wir uns alle zwei Wochen irgendwo zu einer Besprechung hätten treffen können.
+
+Letztlich war ich als Teamleiter also gezwungen, eine Arbeitstechnik zu finden, die es uns trotz unserer geographischen Verteilung erlaubte, vernünftig zusammenzuarbeiten und die dem Arbeiten an einem gemeinsamen Standort möglichst nahe kam.
+
+Zuerst habe ich hierzu mit den verschiedensten Konferenzsystemen experimentiert, jedoch erwies sich keines davon als wirklich praktikabel. Die meisten waren zwar mehr oder weniger leistungsfähig, aber alle waren recht umständlich in der Handhabung. Vor allem aber führte keines dieser Tools dazu, dass wir so produktiv zusammenarbeiten konnten, als würden wir in einem Raum sitzen. Es gelang uns nie, den Zustand zu erreichen, dass die räumliche Distanz keine Rolle mehr spielte.
+
+Es dauerte eine Weile, bis uns nach vielen vergeblichen Anläufen und Tests unterschiedlichster Systeme klar wurde, dass unser Problem nicht daran lag, dass dem jeweiligen Webkonferenz oder Videosystem nicht noch dieses oder jenes Feature fehlte, sondern dass wir ganz grundsätzlich in die falsche Richtung schauten. 
+
+Der Durchbruch kam schließlich, als wir eines Tages parallel zu unserem Chat eine kollaborative Tabelle öffneten, in der wir unsere Besprechungsergebnisse festhalten wollten. Schon beim beiläufigen Mitschreiben von Stichpunkten bemerkten wir, dass der Umstand, dass wir alle gleichzeitig sehen (!) konnten, wer was schrieb und dass jeder darauf direkt antworten konnte, eine besondere Form der Zusammenarbeit ermöglichte. Im ersten Schritt hatten wir dabei eigentlich nur das Flipchart nacherfunden und in den virtuellen Raum verlagert. Allerdings fiel uns auf, dass diese kollaborativen Tabellen zwei Eigenschaften aufweisen, die sie deutlich von virtuellen Whiteboards (die eigentlich einem echten Flipchart viel näher kommen) unterscheiden und die sich als der Schlüssel für unsere produktive Online-Arbeit erweisen sollten: Als erstes konnten wir in den Tabellen nicht nur sehen, wer eingeloggt war, sondern wir konnten über die Cursor auch verfolgen, wer sich gerade ganz konkret wo in der Tabelle aufhielt und etwas bearbeitete. Als zweites konnten wir in den Tabellen direkt interagieren und in Echtzeit Ideen austauschen, bewerten und so weiter -- und das alles mit bis zu zehn Teilnehmern und trotzdem in übersichtlicher und strukturierter Form.
+
+Nach diesen ersten Aha-Erlebnissen fingen wir an, systematisch verschiedene Arbeitstechniken auszuprobieren und diese weiter zu entwickeln. Über gezielte Feedbackrunden lernten wir mit- und voneinander, welche Meetings besonders gut gelaufen waren und wo wir noch nachbessern mussten. So entwickelten wir aus dem Abfassen von Notizen im ersten Schritt eine systematische Brainstorming-Technik. Aus dieser folgte dann eine Arbeitstechnik für das, was Sie hier in diesem Buch als Matrixdiskussion kennen lernen werden und von dort gingen wir dazu über, sortierbare To-Do-Listen mit Risiko-Bewertungen, Prioritäten und Aufwandsschätzungen aufzustellen. Am Ende stand ein mit ganz einfachen Mitteln gebautes, virtuelles Projektboard, über das wir plötzlich in der Lage waren, in Echtzeit zu sehen, wer von uns in Europa oder Asien an welcher Aufgabe arbeitete, so dass wir uns jederzeit spontan abstimmen und über den Tag hinweg in unseren Aktivitäten synchronisieren konnten.
+
+Es hat natürlich einige Anläufe benötigt, bis wir wirklich eine flüssige, in sich stimmige Arbeitsmethode entwickelt hatten. Dabei kam uns zugute, dass ich als Organisationsentwickler die klassischen Formen der Gruppenmoderation und verschiedene agile Methoden aus der Softwareentwicklung und den Gruppenarbeitsmethoden im Lean Management kannte. Obwohl sowohl die Gruppenmoderation als auch die agilen Methoden eigentlich dafür gedacht sind, bei Real-Life-Treffen durchgeführt zu werden, zeichnen sich beide Methoden dadurch aus, dass die wesentlichen Arbeitsinhalte wie beispielsweise Ideen, Lösungsvorschläge, Arbeitspakete etc. auf Karten festgehalten werden. 
+
+Wer sich professionell mit Gruppenarbeit und Moderationstechniken beschäftigt, wird in diesem Buch also in abgewandelter Form auch Gruppenarbeitstechniken wiederbegegnen, wie sie in der Metaplan-Moderation, im agilen Entwicklungsmanagement mit Scrum und im Toyota Production System verwendet werden.
+
+  
+
+
+##  11.1 Fallbeispiel Bundesverband öffentlicher Banken
+
+Die VÖB Service GmbH ist die zentrale Dienstleistungsgesellschaft des Bundesverbands der öffentlichen Banken Deutschlands. Eine Abteilung der VÖB Service ist das BeDarV-Team. BeDarV steht dabei für Beleglose DarlehensVerarbeitung von Fördermittelkrediten. Mit Hilfe der webbasierten Software können die Mitarbeiter von Banken und Kreditinstituten für ihre Kunden Fördermittelkredite beantragen und den gesamten Bearbeitungsprozess bis hin zur Auszahlung der Mittel elektronisch abwickeln. Damit dies möglich ist, muss die Vielzahl öffentlicher Förderprogramme des Bundes und der Länder in der Software abgebildet werden und es müssen Schnittstellen zu allen entscheidenden Stellen wie den Hausbanken, den Landesbanken und Förderinstituten wie der Kreditanstalt für Wiederaufbau und anderen entwickelt und gepflegt werden.
+
+Da sich sowohl die gesetzlichen Rahmenbedingungen als auch die Prozesse in den Förderinstitutionen laufend weiterentwickeln, ist die Pflege und Weiterentwicklung dieser Software eine sehr komplexe Aufgabenstellung. 
+
+2011 entschieden Geschäftsleitung, Teamleitung und Mitarbeiter gemeinsam, die Entwicklung auf agile Arbeitsmethoden umzustellen. Das Ziel war, die komplexen Entwicklungsprozesse zu vereinfachen und die Durchlaufzeiten sowie die Fehlerquoten zu reduzieren. Zu diesem Zeitpunkt arbeitete an der BeDarV-Software ein Team von zehn Finanz- und Software-Spezialisten, das auf zwei Standorte in Bonn und Hamburg verteilt war (und bis heute ist). Dazu kamen noch zwei weitere Entwickler aus Berlin und Hannover. Je nach Arbeitsanfall wurden zeitweise noch weitere Spezialisten zum Beispiel für das Testen vollständig neu entwickelter Programmbestandteile oder die Entwicklung neuer Schnittstellen hinzugezogen.
+
+Die Planung der Projekte erfolgte zentral am Hauptsitz in Bonn. Eine Person war dabei mindestens einen Tag die Woche mit der Aktualisierung der Projektpläne beschäftigt. Im Alltag zwischen den Zusammenkünften koordinierte man sich über Email und Telefonkonferenzen, die Verwaltung der Aufgaben erfolgte über das interne Ticketsystem und zentral geführte Microsoft Project-Dateien. 
+
+Um komplexere Aufgabenstellungen zu bearbeiten, wurden alle Mitarbeiter etwa alle zwei Wochen, mindestens aber einmal im Monat für einen oder mehrere Tage am Hauptsitz des Unternehmens zusammen geführt. 
+
+*Insgesamt kam das Team auf diese Weise auf rund 140 Reisetage im Jahr.*
+
+Im Herbst 2011, etwa einen Monat nach den ersten Workshops und der Einführung von Praktiken wie den Daily Standups und der Umstellung des bis dahin etwa sechsmonatlichen Releasezykluses auf Releasezyklen von vier Wochen, wurden auch Online-Meetings nach der Spread Scrum Meeting-Methode eingeführt. Als erstes wurde die aktuelle Aufgabenliste in kollaborative Tabellen verlagert, auf die alle Teammitglieder jederzeit Zugriff haben. 
+
+  
+![Abbildung 20: Reduktion der Reisetage beim Bundesverb. öffentl. Banken](images/Abb20_Reduktion_Reisetage_VOEB_print.gif)
+
+  
+Aus diesen Aufgabenlisten wurde in der gleichen kollaborativen Tabelle schrittweise ein elektronisches Board entwickelt, das den anspruchsvollen Prozess von der Analyse einer Aufgabenstellung über die Entwicklung und den Test bis hin zur Freigabe für die angeschlossenen Finanzinstitute visualisierte. 
+
+*Die Zahl der Reisetage wurde durch die neue Arbeitsweise halbiert.*
+
+Mit der Einführung dieses eBoards konnten die Teammitglieder in Echtzeit und standortübergreifend nachverfolgen, welcher Kollege an welcher Aufgabe arbeitete, welche Aufgaben gut voran gingen und welche sich in der Umsetzung verzögerten. Das systematische Tracking der Tagesarbeit auf dem eBoard lieferte dann auch Kennzahlen über Fehlerquoten und Bearbeitungszeiten und diese wurden wiederum fester Bestandteil der morgendlichen Teambesprechungen.
+
+Seit 2012 werden sowohl die mehrtägigen Kick-Off-Meetings für neue Projekte als auch die Ergebnisrückschau- und Neuplanungs-Meetings für die nächsten Releasezyklen mit Hilfe der in diesem Buch vorstellten Spread Scrum Meeting-Methode vollständig online durchgeführt. Seit dem hat sich der Reiseaufwand des BeDarV-Teams noch weiter reduziert, zuletzt betrug er nur noch 38 Tage, was einer Reduktion von rund 75 Prozent entspricht.
+
+Heute wird das verteilte Arbeiten mit den Spread Scrum Meeting-Arbeitstechniken nicht nur als relative Verbesserung, sondern je nach Aufgabenstellung sogar als überlegene Arbeitsmethode angesehen. In einer Skype-Konferenz, in der ein Vor-Ort-Termin für ein Coaching in Hamburg vereinbart werden sollte, gab ein Mitarbeiter die folgende Stellungnahme ab: „Wollen wir das nicht lieber online machen? Das ist doch viel effektiver."
+
+# 12. Kontakt
+
+Lucius Bobikiewicz ist Organisationsentwickler mit über zwanzig Jahren eigener Führungserfahrung. Er hat im Laufe seines Berufslebens mehrere Technologie-Startups mitgegründet, darunter ein Unternehmen, das mit einem global verteilten Expertennetzwerk komplexe Software entwickelt hat. Heute bildet die Arbeit mit verteilten Teams einen Schwerpunkt seiner Arbeit als Trainer und Coach.
+
+In Berlin leitet er den von ihm gegründeten Agile Good Practice Circle, ein Forum für IT-Führungskräfte unterschiedlichster Branchen und Größenordnungen.
+
+Privat lebt er mit seiner Frau, seinen beiden Kindern und der schlausten Katze von allen in Halle an der Saale.
+
+Auf [www.](http://www.vting.me/blog)[bridge-the-gap.todday](http://www.vting.me/blog) veröffentlicht er regelmäßig aktuelle Artikel zu den Themen Globalisierung, Management und verteilte Teams.
+
+Persönlich erreichen Sie ihn unter [lucius.bobikiewicz@loop-2.net](mailto:lucius.bobikiewicz@loop-2.net)
+
+#  Über dieses Buch
+
+**Für die Zusammenarbeit über die Entfernung, sei es im verteilten Team oder mit Kunden und Partnern, gibt es sehr viele Werkzeuge.**
+
+**Trotz modernster Technik sind virtuelle Meetings aber nach wie vor sehr anstrengend und in aller Regel bei weitem nicht so produktiv wie Arbeitsbesprechungen im Real Life. Die Folge sind bei den meisten verteilten Teams entweder ein unbefriedigendes Niveau an echter Zusammenarbeit oder eine sehr aufwändige Reisetätigkeit, die ebenfalls viel Zeit, Geld und Energie kostet.**
+
+**Der Team-Trainer und Coach Lucius Bobikiewicz, der selbst mehrere Jahre global verteilte Teams organisiert und geleitet hat, zeigt in diesem Buch, dass das Problem nicht in den mangelnden technischen Lösungen liegt. Vielmehr benötigen wir bei für virtuelle Meetings ganz andere Arbeitstechniken. **
+
+**Dieses Buch zeigt, wie dieses ganz andere Arbeiten, vom Autor Spread Scrum Meeting genannt, in der Praxis aussieht. Für jede aus der Gruppenmoderation bekannte Arbeitstechnik wie Brainstorming, Cluster von Vorschlägen und Dot-Voting wird gezeigt, wie man diese im virtuellen Meeting durchführt und was dabei zu beachten ist. Dazu kommen noch weitere, spezielle Arbeitstechniken für Risikoanalysen, Matrix-Diskussionen, Aufwandsschätzungen und das tägliche Management der anstehenden Aufgaben.**
+
+**Dabei setzt der Autor statt auf teure Webkonferenz-Systeme oder Video-Chat auf ganz einfache Werkzeuge. Für das gesamte Bündel an Spread Scrum Arbeitstechniken kommen ausschließlich kollaborative Tabellen wie Google Spreadsheet oder Microsoft Web Apps zum Einsatz, die sicherheitsbewußte Organisationen intern betreiben können, die aber auch kostenlos im Web verfügbar sind.**
+
+**Mit dem Wissen um die richtigen Arbeitstechniken gelingt es, im virtuellen Meeting einen echten Teamraum-Effekt zu erzielen und sogar ganztägige Arbeitsbesprechungen abzuhalten, die alle Beteiligten begeistern.**
+
+**1. Ausgabe 2014**
+
+107
