@@ -1,4 +1,9 @@
-## Vting -- Eine einfache Methode für produktive virtuelle Meetings
+-# Impressum
+Auflage
+Author
+copyright
+Verlag
+etc..
 
 #  1. Einführung
 
