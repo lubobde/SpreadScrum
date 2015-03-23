@@ -1,10 +1,3 @@
--# Impressum
-Auflage
-Author
-copyright
-Verlag
-etc..
-
 #  1. Einführung
 
 ## 1.0 Spread Scrum: Eine einfache und wirksame Vorgehensweise für verteilte Teams
